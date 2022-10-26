@@ -15,7 +15,10 @@
     ],
     "excludes": [],
     "data": [
-        'views/settings_inherit.xml'
+        'security/ir.model.access.xml',
+        'views/settings_inherit.xml',
+        'views/sale_order.xml',
+        'views/cotiza_wizard.xml'
     ],
     "qweb": [],
     "images": [],

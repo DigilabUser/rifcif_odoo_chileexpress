@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="inherit_sale_order" model="ir.ui.view">
+        <field name="name">inherit.sale.order</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="header" position="inside">
+                <button id="button_cotizar_chileexpress" name="get_wizard" string="Cotizar ChileExpress" 
+                type="object" class="btn-success"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
