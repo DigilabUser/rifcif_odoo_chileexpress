@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_comuna_tree" model="ir.ui.view">
+		<field name="name">view.comuna.tree</field>
+		<field name="model">res.comuna</field>
+		<field name="arch" type="xml">
+			<tree>
+				<field name="name"/>
+				<field name="region"/>
+			</tree>
+		</field>
+	</record>
+    <record id="view_comuna_form" model="ir.ui.view">
+		<field name="name">view.comuna.form</field>
+		<field name="model">res.comuna</field>
+		<field name="arch" type="xml">
+			<form>
+                <group>
+                    <field name="name"/>
+                    <field name="region"/>
+					<field name="comuna_id" />
+                </group>
+			</form>
+		</field>
+	</record>
+
+    <record id="action_comuna" model="ir.actions.act_window">
+		<field name="name">Comunas</field>
+		<field name="res_model">res.comuna</field>
+	</record>
+
+     <menuitem id="menu_comuna" 
+              name="Comunas" 
+              parent="contacts.menu_localisation" 
+              action="rifcif_odoo_chileexpress.action_comuna"/>
+
+</odoo>

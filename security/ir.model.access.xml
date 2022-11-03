@@ -10,5 +10,15 @@
         <field name="perm_unlink" eval="1"/>
         <field name="perm_read" eval="1"/>
     </record>
+    <record id="model_access_res_comuna" model="ir.model.access">
+        <field name="name">model.access.res.comuna</field>
+        <field name="model_id" ref="rifcif_odoo_chileexpress.model_res_comuna"/>
+        <field name="group_id" ref="base.group_system"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="perm_read" eval="1"/>
+    </record>
+    
 
 </odoo>

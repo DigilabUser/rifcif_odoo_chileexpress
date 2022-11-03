@@ -9,8 +9,8 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name="city_id" />
-                            <field name="city2_id" />
+                            <field name="origin_comuna" />
+                            <field name="destination_comuna" />
                             <field name="origin_region" />
                             <field name="destination_region" />
                         </group>

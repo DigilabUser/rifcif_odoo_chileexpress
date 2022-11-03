@@ -15,10 +15,12 @@
     ],
     "excludes": [],
     "data": [
+        'data/comunas_data.xml',
         'security/ir.model.access.xml',
         'views/settings_inherit.xml',
         'views/sale_order.xml',
-        'views/cotiza_wizard.xml'
+        'views/cotiza_wizard.xml',
+        'views/res_comuna.xml',  
     ],
     "qweb": [],
     "images": [],
