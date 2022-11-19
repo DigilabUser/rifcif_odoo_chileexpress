@@ -19,7 +19,8 @@
                 <group>
                     <field name="name"/>
                     <field name="region"/>
-					<field name="comuna_id" />
+					<field name="comuna_id"/>
+					<field name="region_id" />
                 </group>
 			</form>
 		</field>

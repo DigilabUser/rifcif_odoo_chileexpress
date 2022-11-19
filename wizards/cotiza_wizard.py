@@ -11,64 +11,49 @@ class CotizaWizard(models.TransientModel):
 
     _name = "cotiza.wizard"
 
+
     def _get_default_char(self):
         var = self._context.get('delivery_price',"")
-        _logger.info('VARRRRRRRRRRRRR%s',var)
-        return self._context.get('delivery_price',"")
+        return var
     
-    # def _get_default_origen(self):
-    #     comuna = self._context.get('origin_comuna',"")
-    #     _logger.info('COMUNAAAAAAAAAA%s',comuna)
-    #     return comuna
+    def _get_default_origen(self):
+        comuna = self._context.get('origin_comuna',"")
+        return comuna
 
-    # def _get_default_destino(self):
-    #     destino = self._context.get('destination_comuna',"")
-    #     _logger.info('DESCOMUNAAAAAAAAAA%s',destino)
-    #     return self._context.get('destination_comuna',"")
+    def _get_default_destino(self):
+        destino = self._context.get('destination_comuna',"")
+        return destino
 
-    weight = fields.Char('Peso')
+    def _get_default_peso(self):
+        peso = self._context.get('peso',"")
+        return peso
+    
+    def _get_default_id(self):
+        res = self._context.get('res_id',"")
+        return res
+
+    weight = fields.Char('Peso', default=_get_default_peso)
     height = fields.Char('Altura')
     width = fields.Char('Ancho')
     length = fields.Char('Largo')
-    origin_comuna = fields.Many2one('res.comuna','Comuna de Origen')
-    destination_comuna = fields.Many2one('res.comuna','Comuna de Destino')
+    origin_comuna_id = fields.Many2one('res.comuna','Comuna de Origen',default=_get_default_origen)
+    destination_comuna_id = fields.Many2one('res.comuna','Comuna de Destino',default=_get_default_destino)
     delivery_price = fields.Float('Precio de Envío', default=_get_default_char)
-    origin_region = fields.Selection([
-        ('TARAPACA', 'Tarapaca'),
-        ('ANTOFAGASTA', 'Antofagasta'),
-        ('ATACAMA', 'Atacama'),
-        ('COQUIMBO', 'Coquimbo'),
-        ('VALPARAISO', 'Valparaiso'),
-        ('LIBERTADOR-GRAL-BERNARDO-O-HIGGINS','Libertador Gral Bernardo O HIGGINS'),
-        ('MAULE','Maule'),
-        ('BIOBIO','Biobio'),
-        ('ARAUCANIA','Araucania'),
-        ('METROPOLITANA-DE-SANTIAGO','Metropolitana de Santiago'),
-        ('LOS-LAGOS','Los Lagos'),
-        ('AISEN-DEL-GRAL-C-IBANEZ-DEL-CAMPO','Aysén del General Carlos Ibáñez del Campo'),
-        ('MAGALLANES-Y-LA-ANTARTICA-CHILENA','Magallanes y la Antartica Chilena'),
-        ('LOS-RIOS','Los Rios'),
-        ('ARICA-Y-PARINACOTA','Arica y Parinacota'),
-        ('NUBLE','Nuble')
-    ], string='Region de Origen')
-    destination_region = fields.Selection([
-        ('TARAPACA', 'Tarapaca'),
-        ('ANTOFAGASTA', 'Antofagasta'),
-        ('ATACAMA', 'Atacama'),
-        ('COQUIMBO', 'Coquimbo'),
-        ('VALPARAISO', 'Valparaiso'),
-        ('LIBERTADOR-GRAL-BERNARDO-O-HIGGINS','Libertador Gral Bernardo O HIGGINS'),
-        ('MAULE','Maule'),
-        ('BIOBIO','Biobio'),
-        ('ARAUCANIA','Araucania'),
-        ('METROPOLITANA-DE-SANTIAGO','Metropolitana de Santiago'),
-        ('LOS-LAGOS','Los Lagos'),
-        ('AISEN-DEL-GRAL-C-IBANEZ-DEL-CAMPO','Aysén del General Carlos Ibáñez del Campo'),
-        ('MAGALLANES-Y-LA-ANTARTICA-CHILENA','Magallanes y la Antartica Chilena'),
-        ('LOS-RIOS','Los Rios'),
-        ('ARICA-Y-PARINACOTA','Arica y Parinacota'),
-        ('NUBLE','Nuble')
-    ], string='Region de Destino')
+    origin_region_id = fields.Many2one('res.region', string='Region de Origen')
+    destination_region_id = fields.Many2one('res.region', string='Region de Destino')
+
+    def close_wizard(self):
+        s_order = self.env['sale.order'].search([('id','=',self._get_default_id())])
+        s_order.write({'chileexpress_price':self.delivery_price})
+        return {
+            'view_type': 'form',
+            'view_mode': 'form',
+            'res_model': 'sale.order',
+            'res_id': self._get_default_id(),
+            'type': 'ir.actions.act_window',
+            'target': 'current',
+            #'context': {'precio': self.delivery_price}
+        }
 
     def get_cotizacion(self):
         url = 'https://testservices.wschilexpress.com/rating/api/v1.0/rates/business'
@@ -78,13 +63,13 @@ class CotizaWizard(models.TransientModel):
             'Ocp-Apim-Subscription-Key':'f25fbe75153b4f8e908e11fb5c958a1d'
         }
         myobj = {
-            "originCountyCode": self.origin_comuna.comuna_id,
-            "destinationCountyCode": self.destination_comuna.comuna_id,
+            "originCountyCode": self.origin_comuna_id.comuna_id,
+            "destinationCountyCode": self.destination_comuna_id.comuna_id,
             "package": {
-                "weight": "16",
-                "height": "1",
-                "width": "1",
-                "length": "1"
+                "weight": self.weight,
+                "height": self.height,
+                "width": self.width,
+                "length": self.length
             },
             "productType": 3,
             "contentType": 1,
@@ -92,49 +77,22 @@ class CotizaWizard(models.TransientModel):
             "deliveryTime": 0,
             "customerCardNumber": "0"
         }
-        _logger.info('MYOBJJJJJJJJJJJJJJJJJJJJJJJJJJ%s',myobj)
         x = requests.post(url, json = myobj, headers=header)
         response = json.loads(x.text)
-        _logger.info('RESPONSEEEEEEEEEEEEEEEEEEEEEEEEEEE%s',response)
         prueba = response['data']['courierServiceOptions'][0]['serviceValue']
-        #context = "{'delivery_price':'"+prueba+"','origin_comuna':'"+self.origin_comuna+"','destination_comuna':'"+self.destination_comuna+"'}"
-        context= "{'delivery_price':"+prueba+"}"
-        #context = "{'origin_comuna':'"+self.origin_comuna+"'}"
-        _logger.info('PrueBAAAAAAAAAAAAAAAAAAAAAAAAAAAA%s',context)
-        #self.delivery_price = float(response['data']['courierServiceOptions'][0]['serviceValue'])
-        #_logger.info('POSSTTTTTTTTTTTTTTT%s',response['data']['courierServiceOptions'][0]['serviceValue'])
+        ctx={}
+        ctx.update({
+            'delivery_price': prueba,
+            'origin_comuna': self.origin_comuna_id.id,
+            'destination_comuna': self.destination_comuna_id.id
+        })
         return {
             'view_type': 'form',
             'view_mode': 'form',
             'res_model': 'cotiza.wizard',
             'type': 'ir.actions.act_window',
             'target': 'new',
-            'context': context,
+            'context': ctx,
         }
-        # url = 'https://testservices.wschilexpress.com/georeference/api/v1.0/regions'
-        # data = requests.get(url)
-        # data = data.json()
-        # regions = data['regions']
-        # origin_regions = self.origin_region
-        # origin_region_id = ''
-        # for region in regions:
-        #     if region['regionName'].replace(' ','-') == origin_regions:
-        #         origin_region_id = region['regionId']
-        # _logger.info('REGIOOOOOOOOOOOOOOOOOOOOOOOOON%s',origin_region_id)
-        # url = 'https://testservices.wschilexpress.com/georeference/api/v1.0/coverage-areas?RegionCode={origin_region_id}&type=0'
-        # data = requests.get(url)
-        # data = data.json()
-        # for item in data:
-        #     _logger.info('ITEEEMMMMMMMMMMMMMM%s',item)
-        
-    # @api.onchange('origin_region')
-    # def _get_selection(self):
-    #     lst = []
-    #     lst.append(('1','value1'))
-    #     lst.append(('2','value2'))
-    #     lst.append(('3','value3'))
-    #     return lst
-
-    # origin_comuna = fields.Selection(_get_selection, string='Comuna de origen')
     
             

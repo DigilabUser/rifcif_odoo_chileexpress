@@ -1,2080 +1,2426 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
 
-    <record id="AHOS" model="res.comuna">
+   <record id="AHOS" model="res.comuna">
         <field name="name">ALTO HOSPICIO</field>
         <field name="region">R1</field>
         <field name="comuna_id">AHOS</field>
+        <!-- <field name="region_id">1</field> -->
     </record>
-        
+            
     <record id="IQUI" model="res.comuna">
         <field name="name">IQUIQUE</field>
         <field name="region">R1</field>
         <field name="comuna_id">IQUI</field>
+        <!-- <field name="region_id">1</field> -->
     </record>
             
     <record id="POZO" model="res.comuna">
         <field name="name">POZO ALMONTE</field>
         <field name="region">R1</field>
         <field name="comuna_id">POZO</field>
+        <!-- <field name="region_id">1</field> -->
     </record>
             
     <record id="ANTO" model="res.comuna">
         <field name="name">ANTOFAGASTA</field>
         <field name="region">R2</field>
         <field name="comuna_id">ANTO</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="CALA" model="res.comuna">
         <field name="name">CALAMA</field>
         <field name="region">R2</field>
         <field name="comuna_id">CALA</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="MARI" model="res.comuna">
         <field name="name">MARIA ELENA</field>
         <field name="region">R2</field>
         <field name="comuna_id">MARI</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="MEJI" model="res.comuna">
         <field name="name">MEJILLONES</field>
         <field name="region">R2</field>
         <field name="comuna_id">MEJI</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="SPAT" model="res.comuna">
         <field name="name">SAN PEDRO DE ATACAMA</field>
         <field name="region">R2</field>
         <field name="comuna_id">SPAT</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="SGOR" model="res.comuna">
         <field name="name">SIERRA GORDA</field>
         <field name="region">R2</field>
         <field name="comuna_id">SGOR</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="TALT" model="res.comuna">
         <field name="name">TALTAL</field>
         <field name="region">R2</field>
         <field name="comuna_id">TALT</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="TOCO" model="res.comuna">
         <field name="name">TOCOPILLA</field>
         <field name="region">R2</field>
         <field name="comuna_id">TOCO</field>
+        <!-- <field name="region_id">2</field> -->
     </record>
             
     <record id="CALD" model="res.comuna">
         <field name="name">CALDERA</field>
         <field name="region">R3</field>
         <field name="comuna_id">CALD</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="CHAN" model="res.comuna">
         <field name="name">CHANARAL</field>
         <field name="region">R3</field>
         <field name="comuna_id">CHAN</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="COPI" model="res.comuna">
         <field name="name">COPIAPO</field>
         <field name="region">R3</field>
         <field name="comuna_id">COPI</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="DIEG" model="res.comuna">
         <field name="name">DIEGO DE ALMAGRO</field>
         <field name="region">R3</field>
         <field name="comuna_id">DIEG</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="DOME" model="res.comuna">
         <field name="name">VALLENAR</field>
         <field name="region">R3</field>
         <field name="comuna_id">DOME</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="ELSA" model="res.comuna">
         <field name="name">DIEGO DE ALMAGRO</field>
         <field name="region">R3</field>
         <field name="comuna_id">ELSA</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="EPAI" model="res.comuna">
         <field name="name">COPIAPO</field>
         <field name="region">R3</field>
         <field name="comuna_id">EPAI</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="FREI" model="res.comuna">
         <field name="name">FREIRINA</field>
         <field name="region">R3</field>
         <field name="comuna_id">FREI</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="HUAS" model="res.comuna">
         <field name="name">HUASCO</field>
         <field name="region">R3</field>
         <field name="comuna_id">HUAS</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="PAIP" model="res.comuna">
         <field name="name">COPIAPO</field>
         <field name="region">R3</field>
         <field name="comuna_id">PAIP</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="TAMA" model="res.comuna">
         <field name="name">TIERRA AMARILLA</field>
         <field name="region">R3</field>
         <field name="comuna_id">TAMA</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="VALL" model="res.comuna">
         <field name="name">VALLENAR</field>
         <field name="region">R3</field>
         <field name="comuna_id">VALL</field>
+        <!-- <field name="region_id">3</field> -->
     </record>
             
     <record id="ANDA" model="res.comuna">
         <field name="name">ANDACOLLO</field>
         <field name="region">R4</field>
         <field name="comuna_id">ANDA</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="CANL" model="res.comuna">
         <field name="name">CANELA</field>
         <field name="region">R4</field>
         <field name="comuna_id">CANL</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="COMB" model="res.comuna">
         <field name="name">COMBARBALA</field>
         <field name="region">R4</field>
         <field name="comuna_id">COMB</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="COQU" model="res.comuna">
         <field name="name">COQUIMBO</field>
         <field name="region">R4</field>
         <field name="comuna_id">COQU</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="ILLA" model="res.comuna">
         <field name="name">ILLAPEL</field>
         <field name="region">R4</field>
         <field name="comuna_id">ILLA</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="LASE" model="res.comuna">
         <field name="name">LA SERENA</field>
         <field name="region">R4</field>
         <field name="comuna_id">LASE</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="LTAC" model="res.comuna">
         <field name="name">COQUIMBO</field>
         <field name="region">R4</field>
         <field name="comuna_id">LTAC</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="LVIL" model="res.comuna">
         <field name="name">LOS VILOS</field>
         <field name="region">R4</field>
         <field name="comuna_id">LVIL</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="MOPA" model="res.comuna">
         <field name="name">MONTE PATRIA</field>
         <field name="region">R4</field>
         <field name="comuna_id">MOPA</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="OVAL" model="res.comuna">
         <field name="name">OVALLE</field>
         <field name="region">R4</field>
         <field name="comuna_id">OVAL</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="PAIG" model="res.comuna">
         <field name="name">PAIGUANO</field>
         <field name="region">R4</field>
         <field name="comuna_id">PAIG</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="PDAN" model="res.comuna">
         <field name="name">LOS VILOS</field>
         <field name="region">R4</field>
         <field name="comuna_id">PDAN</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="PUNI" model="res.comuna">
         <field name="name">PUNITAQUI</field>
         <field name="region">R4</field>
         <field name="comuna_id">PUNI</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="SALA" model="res.comuna">
         <field name="name">SALAMANCA</field>
         <field name="region">R4</field>
         <field name="comuna_id">SALA</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="VICU" model="res.comuna">
         <field name="name">VICUNA</field>
         <field name="region">R4</field>
         <field name="comuna_id">VICU</field>
+        <!-- <field name="region_id">4</field> -->
     </record>
             
     <record id="ALGA" model="res.comuna">
         <field name="name">ALGARROBO</field>
         <field name="region">R5</field>
         <field name="comuna_id">ALGA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="ARTI" model="res.comuna">
         <field name="name">NOGALES</field>
         <field name="region">R5</field>
         <field name="comuna_id">ARTI</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="BARR" model="res.comuna">
         <field name="name">SAN ANTONIO</field>
         <field name="region">R5</field>
         <field name="comuna_id">BARR</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="BSDO" model="res.comuna">
         <field name="name">SANTO DOMINGO</field>
         <field name="region">R5</field>
         <field name="comuna_id">BSDO</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CACH" model="res.comuna">
         <field name="name">ZAPALLAR</field>
         <field name="region">R5</field>
         <field name="comuna_id">CACH</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CALL" model="res.comuna">
         <field name="name">CALLE LARGA</field>
         <field name="region">R5</field>
         <field name="comuna_id">CALL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CART" model="res.comuna">
         <field name="name">CARTAGENA</field>
         <field name="region">R5</field>
         <field name="comuna_id">CART</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CASA" model="res.comuna">
         <field name="name">CASABLANCA</field>
         <field name="region">R5</field>
         <field name="comuna_id">CASA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CATE" model="res.comuna">
         <field name="name">CATEMU</field>
         <field name="region">R5</field>
         <field name="comuna_id">CATE</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CCON" model="res.comuna">
         <field name="name">CONCON</field>
         <field name="region">R5</field>
         <field name="comuna_id">CCON</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="ELBE" model="res.comuna">
         <field name="name">QUILPUE</field>
         <field name="region">R5</field>
         <field name="comuna_id">ELBE</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="EMEL" model="res.comuna">
         <field name="name">NOGALES</field>
         <field name="region">R5</field>
         <field name="comuna_id">EMEL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="QSCO" model="res.comuna">
         <field name="name">EL QUISCO</field>
         <field name="region">R5</field>
         <field name="comuna_id">QSCO</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="TABI" model="res.comuna">
         <field name="name">EL TABO</field>
         <field name="region">R5</field>
         <field name="comuna_id">TABI</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="TABO" model="res.comuna">
         <field name="name">EL TABO</field>
         <field name="region">R5</field>
         <field name="comuna_id">TABO</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="HIJU" model="res.comuna">
         <field name="name">HIJUELAS</field>
         <field name="region">R5</field>
         <field name="comuna_id">HIJU</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="INEG" model="res.comuna">
         <field name="name">EL QUISCO</field>
         <field name="region">R5</field>
         <field name="comuna_id">INEG</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LACA" model="res.comuna">
         <field name="name">LA CALERA</field>
         <field name="region">R5</field>
         <field name="comuna_id">LACA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LACR" model="res.comuna">
         <field name="name">LA CRUZ</field>
         <field name="region">R5</field>
         <field name="comuna_id">LACR</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LALI" model="res.comuna">
         <field name="name">LA LIGUA</field>
         <field name="region">R5</field>
         <field name="comuna_id">LALI</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LPAL" model="res.comuna">
         <field name="name">QUILLOTA</field>
         <field name="region">R5</field>
         <field name="comuna_id">LPAL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LCRU" model="res.comuna">
         <field name="name">EL TABO</field>
         <field name="region">R5</field>
         <field name="comuna_id">LCRU</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LIMA" model="res.comuna">
         <field name="name">LIMACHE</field>
         <field name="region">R5</field>
         <field name="comuna_id">LIMA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LLAY" model="res.comuna">
         <field name="name">LLAY LLAY</field>
         <field name="region">R5</field>
         <field name="comuna_id">LLAY</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LLOL" model="res.comuna">
         <field name="name">SAN ANTONIO</field>
         <field name="region">R5</field>
         <field name="comuna_id">LLOL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LAND" model="res.comuna">
         <field name="name">LOS ANDES</field>
         <field name="region">R5</field>
         <field name="comuna_id">LAND</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="LMOL" model="res.comuna">
         <field name="name">LA LIGUA</field>
         <field name="region">R5</field>
         <field name="comuna_id">LMOL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="MAIT" model="res.comuna">
         <field name="name">PUCHUNCAVI</field>
         <field name="region">R5</field>
         <field name="comuna_id">MAIT</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="NOGA" model="res.comuna">
         <field name="name">NOGALES</field>
         <field name="region">R5</field>
         <field name="comuna_id">NOGA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="OLMU" model="res.comuna">
         <field name="name">OLMUE</field>
         <field name="region">R5</field>
         <field name="comuna_id">OLMU</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="PAPU" model="res.comuna">
         <field name="name">PAPUDO</field>
         <field name="region">R5</field>
         <field name="comuna_id">PAPU</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="PBLA" model="res.comuna">
         <field name="name">VILLA ALEMANA</field>
         <field name="region">R5</field>
         <field name="comuna_id">PBLA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="PLAV" model="res.comuna">
         <field name="name">VALPARAISO</field>
         <field name="region">R5</field>
         <field name="comuna_id">PLAV</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="POCO" model="res.comuna">
         <field name="name">QUILLOTA</field>
         <field name="region">R5</field>
         <field name="comuna_id">POCO</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="PUCH" model="res.comuna">
         <field name="name">PUCHUNCAVI</field>
         <field name="region">R5</field>
         <field name="comuna_id">PUCH</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="PUTA" model="res.comuna">
         <field name="name">PUTAENDO</field>
         <field name="region">R5</field>
         <field name="comuna_id">PUTA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="QLTA" model="res.comuna">
         <field name="name">QUILLOTA</field>
         <field name="region">R5</field>
         <field name="comuna_id">QLTA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="QUIL" model="res.comuna">
         <field name="name">QUILPUE</field>
         <field name="region">R5</field>
         <field name="comuna_id">QUIL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="QUIN" model="res.comuna">
         <field name="name">QUINTERO</field>
         <field name="region">R5</field>
         <field name="comuna_id">QUIN</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="RENA" model="res.comuna">
         <field name="name">VINA DEL MAR</field>
         <field name="region">R5</field>
         <field name="comuna_id">RENA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SANT" model="res.comuna">
         <field name="name">SAN ANTONIO</field>
         <field name="region">R5</field>
         <field name="comuna_id">SANT</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SEST" model="res.comuna">
         <field name="name">SAN ESTEBAN</field>
         <field name="region">R5</field>
         <field name="comuna_id">SEST</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SFEL" model="res.comuna">
         <field name="name">SAN FELIPE</field>
         <field name="region">R5</field>
         <field name="comuna_id">SFEL</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SFLI" model="res.comuna">
         <field name="name">LIMACHE</field>
         <field name="region">R5</field>
         <field name="comuna_id">SFLI</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SPDO" model="res.comuna">
         <field name="name">QUILLOTA</field>
         <field name="region">R5</field>
         <field name="comuna_id">SPDO</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SSEB" model="res.comuna">
         <field name="name">CARTAGENA</field>
         <field name="region">R5</field>
         <field name="comuna_id">SSEB</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SMAR" model="res.comuna">
         <field name="name">SANTA MARIA</field>
         <field name="region">R5</field>
         <field name="comuna_id">SMAR</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="SDGO" model="res.comuna">
         <field name="name">SANTO DOMINGO</field>
         <field name="region">R5</field>
         <field name="comuna_id">SDGO</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="VALP" model="res.comuna">
         <field name="name">VALPARAISO</field>
         <field name="region">R5</field>
         <field name="comuna_id">VALP</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="VALE" model="res.comuna">
         <field name="name">VILLA ALEMANA</field>
         <field name="region">R5</field>
         <field name="comuna_id">VALE</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="VINA" model="res.comuna">
         <field name="name">VINA DEL MAR</field>
         <field name="region">R5</field>
         <field name="comuna_id">VINA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="ZAPA" model="res.comuna">
         <field name="name">ZAPALLAR</field>
         <field name="region">R5</field>
         <field name="comuna_id">ZAPA</field>
+        <!-- <field name="region_id">5</field> -->
     </record>
             
     <record id="CHEP" model="res.comuna">
         <field name="name">CHEPICA</field>
         <field name="region">R6</field>
         <field name="comuna_id">CHEP</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="CHIM" model="res.comuna">
         <field name="name">CHIMBARONGO</field>
         <field name="region">R6</field>
         <field name="comuna_id">CHIM</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="CODE" model="res.comuna">
         <field name="name">CODEGUA</field>
         <field name="region">R6</field>
         <field name="comuna_id">CODE</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="COIN" model="res.comuna">
         <field name="name">COINCO</field>
         <field name="region">R6</field>
         <field name="comuna_id">COIN</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="COLT" model="res.comuna">
         <field name="name">COLTAUCO</field>
         <field name="region">R6</field>
         <field name="comuna_id">COLT</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="DONI" model="res.comuna">
         <field name="name">DONIHUE</field>
         <field name="region">R6</field>
         <field name="comuna_id">DONI</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="GRAN" model="res.comuna">
         <field name="name">GRANEROS</field>
         <field name="region">R6</field>
         <field name="comuna_id">GRAN</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="LCAB" model="res.comuna">
         <field name="name">LAS CABRAS</field>
         <field name="region">R6</field>
         <field name="comuna_id">LCAB</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="LCHE" model="res.comuna">
         <field name="name">LITUECHE</field>
         <field name="region">R6</field>
         <field name="comuna_id">LCHE</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="LOMI" model="res.comuna">
         <field name="name">DONIHUE</field>
         <field name="region">R6</field>
         <field name="comuna_id">LOMI</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="LOLO" model="res.comuna">
         <field name="name">LOLOL</field>
         <field name="region">R6</field>
         <field name="comuna_id">LOLO</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="LONV" model="res.comuna">
         <field name="name">PALMILLA</field>
         <field name="region">R6</field>
         <field name="comuna_id">LONV</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="MACH" model="res.comuna">
         <field name="name">MACHALI</field>
         <field name="region">R6</field>
         <field name="comuna_id">MACH</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="MALO" model="res.comuna">
         <field name="name">MALLOA</field>
         <field name="region">R6</field>
         <field name="comuna_id">MALO</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="MARC" model="res.comuna">
         <field name="name">MARCHIHUE</field>
         <field name="region">R6</field>
         <field name="comuna_id">MARC</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="NANC" model="res.comuna">
         <field name="name">NANCAGUA</field>
         <field name="region">R6</field>
         <field name="comuna_id">NANC</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="NAVI" model="res.comuna">
         <field name="name">NAVIDAD</field>
         <field name="region">R6</field>
         <field name="comuna_id">NAVI</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="OLIV" model="res.comuna">
         <field name="name">OLIVAR</field>
         <field name="region">R6</field>
         <field name="comuna_id">OLIV</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PALM" model="res.comuna">
         <field name="name">PALMILLA</field>
         <field name="region">R6</field>
         <field name="comuna_id">PALM</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PARE" model="res.comuna">
         <field name="name">PAREDONES</field>
         <field name="region">R6</field>
         <field name="comuna_id">PARE</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PELE" model="res.comuna">
         <field name="name">MALLOA</field>
         <field name="region">R6</field>
         <field name="comuna_id">PELE</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PERA" model="res.comuna">
         <field name="name">PERALILLO</field>
         <field name="region">R6</field>
         <field name="comuna_id">PERA</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PEUM" model="res.comuna">
         <field name="name">PEUMO</field>
         <field name="region">R6</field>
         <field name="comuna_id">PEUM</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PICD" model="res.comuna">
         <field name="name">PICHIDEGUA</field>
         <field name="region">R6</field>
         <field name="comuna_id">PICD</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PICH" model="res.comuna">
         <field name="name">PICHILEMU</field>
         <field name="region">R6</field>
         <field name="comuna_id">PICH</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="PLAC" model="res.comuna">
         <field name="name">PLACILLA</field>
         <field name="region">R6</field>
         <field name="comuna_id">PLAC</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="QTIL" model="res.comuna">
         <field name="name">QUINTA DE TILCOCO</field>
         <field name="region">R6</field>
         <field name="comuna_id">QTIL</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="RANC" model="res.comuna">
         <field name="name">RANCAGUA</field>
         <field name="region">R6</field>
         <field name="comuna_id">RANC</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="RENG" model="res.comuna">
         <field name="name">RENGO</field>
         <field name="region">R6</field>
         <field name="comuna_id">RENG</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="REQU" model="res.comuna">
         <field name="name">REQUINOA</field>
         <field name="region">R6</field>
         <field name="comuna_id">REQU</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="ROSA" model="res.comuna">
         <field name="name">RENGO</field>
         <field name="region">R6</field>
         <field name="comuna_id">ROSA</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="SFER" model="res.comuna">
         <field name="name">SAN FERNANDO</field>
         <field name="region">R6</field>
         <field name="comuna_id">SFER</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="SFRA" model="res.comuna">
         <field name="name">MOSTAZAL</field>
         <field name="region">R6</field>
         <field name="comuna_id">SFRA</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="SVIC" model="res.comuna">
         <field name="name">SAN VICENTE</field>
         <field name="region">R6</field>
         <field name="comuna_id">SVIC</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="SCRU" model="res.comuna">
         <field name="name">SANTA CRUZ</field>
         <field name="region">R6</field>
         <field name="comuna_id">SCRU</field>
+        <!-- <field name="region_id">6</field> -->
     </record>
             
     <record id="CAUQ" model="res.comuna">
         <field name="name">CAUQUENES</field>
         <field name="region">R7</field>
         <field name="comuna_id">CAUQ</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="CHNC" model="res.comuna">
         <field name="name">CHANCO</field>
         <field name="region">R7</field>
         <field name="comuna_id">CHNC</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="COLB" model="res.comuna">
         <field name="name">COLBUN</field>
         <field name="region">R7</field>
         <field name="comuna_id">COLB</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="CONS" model="res.comuna">
         <field name="name">CONSTITUCION</field>
         <field name="region">R7</field>
         <field name="comuna_id">CONS</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="CURI" model="res.comuna">
         <field name="name">CURICO</field>
         <field name="region">R7</field>
         <field name="comuna_id">CURI</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="EMPE" model="res.comuna">
         <field name="name">EMPEDRADO</field>
         <field name="region">R7</field>
         <field name="comuna_id">EMPE</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="HUAL" model="res.comuna">
         <field name="name">HUALANE</field>
         <field name="region">R7</field>
         <field name="comuna_id">HUAL</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="LICA" model="res.comuna">
         <field name="name">LICANTEN</field>
         <field name="region">R7</field>
         <field name="comuna_id">LICA</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="LINA" model="res.comuna">
         <field name="name">LINARES</field>
         <field name="region">R7</field>
         <field name="comuna_id">LINA</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="LONG" model="res.comuna">
         <field name="name">LONGAVI</field>
         <field name="region">R7</field>
         <field name="comuna_id">LONG</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="LONT" model="res.comuna">
         <field name="name">MOLINA</field>
         <field name="region">R7</field>
         <field name="comuna_id">LONT</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="MULE" model="res.comuna">
         <field name="name">MAULE</field>
         <field name="region">R7</field>
         <field name="comuna_id">MULE</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="MOLI" model="res.comuna">
         <field name="name">MOLINA</field>
         <field name="region">R7</field>
         <field name="comuna_id">MOLI</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="PARR" model="res.comuna">
         <field name="name">PARRAL</field>
         <field name="region">R7</field>
         <field name="comuna_id">PARR</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="PELL" model="res.comuna">
         <field name="name">PELLUHUE</field>
         <field name="region">R7</field>
         <field name="comuna_id">PELL</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="PNCH" model="res.comuna">
         <field name="name">PENCAHUE</field>
         <field name="region">R7</field>
         <field name="comuna_id">PNCH</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="RETI" model="res.comuna">
         <field name="name">RETIRO</field>
         <field name="region">R7</field>
         <field name="comuna_id">RETI</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="ROME" model="res.comuna">
         <field name="name">ROMERAL</field>
         <field name="region">R7</field>
         <field name="comuna_id">ROME</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="SCLE" model="res.comuna">
         <field name="name">SAN CLEMENTE</field>
         <field name="region">R7</field>
         <field name="comuna_id">SCLE</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="SJAV" model="res.comuna">
         <field name="name">SAN JAVIER</field>
         <field name="region">R7</field>
         <field name="comuna_id">SJAV</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="SRAF" model="res.comuna">
         <field name="name">SAN RAFAEL</field>
         <field name="region">R7</field>
         <field name="comuna_id">SRAF</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="TALC" model="res.comuna">
         <field name="name">TALCA</field>
         <field name="region">R7</field>
         <field name="comuna_id">TALC</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="TENO" model="res.comuna">
         <field name="name">TENO</field>
         <field name="region">R7</field>
         <field name="comuna_id">TENO</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="VALG" model="res.comuna">
         <field name="name">VILLA ALEGRE</field>
         <field name="region">R7</field>
         <field name="comuna_id">VALG</field>
+        <!-- <field name="region_id">7</field> -->
     </record>
             
     <record id="ALBB" model="res.comuna">
         <field name="name">ALTO BIOBIO</field>
         <field name="region">R8</field>
         <field name="comuna_id">ALBB</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="ANTU" model="res.comuna">
         <field name="name">ANTUCO</field>
         <field name="region">R8</field>
         <field name="comuna_id">ANTU</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="ARAU" model="res.comuna">
         <field name="name">ARAUCO</field>
         <field name="region">R8</field>
         <field name="comuna_id">ARAU</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CABR" model="res.comuna">
         <field name="name">CABRERO</field>
         <field name="region">R8</field>
         <field name="comuna_id">CABR</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CANE" model="res.comuna">
         <field name="name">CANETE</field>
         <field name="region">R8</field>
         <field name="comuna_id">CANE</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CHIG" model="res.comuna">
         <field name="name">CHIGUAYANTE</field>
         <field name="region">R8</field>
         <field name="comuna_id">CHIG</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CONC" model="res.comuna">
         <field name="name">CONCEPCION</field>
         <field name="region">R8</field>
         <field name="comuna_id">CONC</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CONT" model="res.comuna">
         <field name="name">CONTULMO</field>
         <field name="region">R8</field>
         <field name="comuna_id">CONT</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CORO" model="res.comuna">
         <field name="name">CORONEL</field>
         <field name="region">R8</field>
         <field name="comuna_id">CORO</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="CURA" model="res.comuna">
         <field name="name">CURANILAHUE</field>
         <field name="region">R8</field>
         <field name="comuna_id">CURA</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="DCHA" model="res.comuna">
         <field name="name">TOME</field>
         <field name="region">R8</field>
         <field name="comuna_id">DCHA</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="FLOR" model="res.comuna">
         <field name="name">FLORIDA</field>
         <field name="region">R8</field>
         <field name="comuna_id">FLOR</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="HPEN" model="res.comuna">
         <field name="name">HUALPEN</field>
         <field name="region">R8</field>
         <field name="comuna_id">HPEN</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="HAQI" model="res.comuna">
         <field name="name">HUALQUI</field>
         <field name="region">R8</field>
         <field name="comuna_id">HAQI</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="HUEP" model="res.comuna">
         <field name="name">LOS ANGELES</field>
         <field name="region">R8</field>
         <field name="comuna_id">HUEP</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="LAJA" model="res.comuna">
         <field name="name">LAJA</field>
         <field name="region">R8</field>
         <field name="comuna_id">LAJA</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="LCAN" model="res.comuna">
         <field name="name">TALCAHUANO</field>
         <field name="region">R8</field>
         <field name="comuna_id">LCAN</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="LEBU" model="res.comuna">
         <field name="name">LEBU</field>
         <field name="region">R8</field>
         <field name="comuna_id">LEBU</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="LIRQ" model="res.comuna">
         <field name="name">PENCO</field>
         <field name="region">R8</field>
         <field name="comuna_id">LIRQ</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="ALAM" model="res.comuna">
         <field name="name">LOS ALAMOS</field>
         <field name="region">R8</field>
         <field name="comuna_id">ALAM</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="LANG" model="res.comuna">
         <field name="name">LOS ANGELES</field>
         <field name="region">R8</field>
         <field name="comuna_id">LANG</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="LOTA" model="res.comuna">
         <field name="name">LOTA</field>
         <field name="region">R8</field>
         <field name="comuna_id">LOTA</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="MULC" model="res.comuna">
         <field name="name">MULCHEN</field>
         <field name="region">R8</field>
         <field name="comuna_id">MULC</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="NACI" model="res.comuna">
         <field name="name">NACIMIENTO</field>
         <field name="region">R8</field>
         <field name="comuna_id">NACI</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="NEGR" model="res.comuna">
         <field name="name">NEGRETE</field>
         <field name="region">R8</field>
         <field name="comuna_id">NEGR</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="PENC" model="res.comuna">
         <field name="name">PENCO</field>
         <field name="region">R8</field>
         <field name="comuna_id">PENC</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="QLLC" model="res.comuna">
         <field name="name">QUILLECO</field>
         <field name="region">R8</field>
         <field name="comuna_id">QLLC</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="SPED" model="res.comuna">
         <field name="name">SAN PEDRO DE LA PAZ</field>
         <field name="region">R8</field>
         <field name="comuna_id">SPED</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="SANR" model="res.comuna">
         <field name="name">SAN ROSENDO</field>
         <field name="region">R8</field>
         <field name="comuna_id">SANR</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="SBAR" model="res.comuna">
         <field name="name">SANTA BARBARA</field>
         <field name="region">R8</field>
         <field name="comuna_id">SBAR</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="SJUN" model="res.comuna">
         <field name="name">SANTA JUANA</field>
         <field name="region">R8</field>
         <field name="comuna_id">SJUN</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="THNO" model="res.comuna">
         <field name="name">TALCAHUANO</field>
         <field name="region">R8</field>
         <field name="comuna_id">THNO</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="TOME" model="res.comuna">
         <field name="name">TOME</field>
         <field name="region">R8</field>
         <field name="comuna_id">TOME</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="TUCA" model="res.comuna">
         <field name="name">TUCAPEL</field>
         <field name="region">R8</field>
         <field name="comuna_id">TUCA</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="YUMB" model="res.comuna">
         <field name="name">YUMBEL</field>
         <field name="region">R8</field>
         <field name="comuna_id">YUMB</field>
+        <!-- <field name="region_id">8</field> -->
     </record>
             
     <record id="ANGO" model="res.comuna">
         <field name="name">ANGOL</field>
         <field name="region">R9</field>
         <field name="comuna_id">ANGO</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="CARA" model="res.comuna">
         <field name="name">CARAHUE</field>
         <field name="region">R9</field>
         <field name="comuna_id">CARA</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="CHLC" model="res.comuna">
         <field name="name">CHOLCHOL</field>
         <field name="region">R9</field>
         <field name="comuna_id">CHLC</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="COLL" model="res.comuna">
         <field name="name">COLLIPULLI</field>
         <field name="region">R9</field>
         <field name="comuna_id">COLL</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="CUNC" model="res.comuna">
         <field name="name">CUNCO</field>
         <field name="region">R9</field>
         <field name="comuna_id">CUNC</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="CURC" model="res.comuna">
         <field name="name">CURACAUTIN</field>
         <field name="region">R9</field>
         <field name="comuna_id">CURC</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="FRER" model="res.comuna">
         <field name="name">FREIRE</field>
         <field name="region">R9</field>
         <field name="comuna_id">FRER</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="GALV" model="res.comuna">
         <field name="name">GALVARINO</field>
         <field name="region">R9</field>
         <field name="comuna_id">GALV</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="GORB" model="res.comuna">
         <field name="name">GORBEA</field>
         <field name="region">R9</field>
         <field name="comuna_id">GORB</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="LPAZ" model="res.comuna">
         <field name="name">LONCOCHE</field>
         <field name="region">R9</field>
         <field name="comuna_id">LPAZ</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="LAUT" model="res.comuna">
         <field name="name">LAUTARO</field>
         <field name="region">R9</field>
         <field name="comuna_id">LAUT</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="LRAY" model="res.comuna">
         <field name="name">VILLARRICA</field>
         <field name="region">R9</field>
         <field name="comuna_id">LRAY</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="LONC" model="res.comuna">
         <field name="name">LONCOCHE</field>
         <field name="region">R9</field>
         <field name="comuna_id">LONC</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="LNQY" model="res.comuna">
         <field name="name">LONQUIMAY</field>
         <field name="region">R9</field>
         <field name="comuna_id">LNQY</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="LUMA" model="res.comuna">
         <field name="name">LUMACO</field>
         <field name="region">R9</field>
         <field name="comuna_id">LUMA</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="MINI" model="res.comuna">
         <field name="name">ANGOL</field>
         <field name="region">R9</field>
         <field name="comuna_id">MINI</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="NVAI" model="res.comuna">
         <field name="name">NUEVA IMPERIAL</field>
         <field name="region">R9</field>
         <field name="comuna_id">NVAI</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="PLCA" model="res.comuna">
         <field name="name">PADRE LAS CASAS</field>
         <field name="region">R9</field>
         <field name="comuna_id">PLCA</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="PITR" model="res.comuna">
         <field name="name">PITRUFQUEN</field>
         <field name="region">R9</field>
         <field name="comuna_id">PITR</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="PUCO" model="res.comuna">
         <field name="name">PUCON</field>
         <field name="region">R9</field>
         <field name="comuna_id">PUCO</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="PURE" model="res.comuna">
         <field name="name">PUREN</field>
         <field name="region">R9</field>
         <field name="comuna_id">PURE</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="QUEP" model="res.comuna">
         <field name="name">PADRE LAS CASAS</field>
         <field name="region">R9</field>
         <field name="comuna_id">QUEP</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="RNCO" model="res.comuna">
         <field name="name">RENAICO</field>
         <field name="region">R9</field>
         <field name="comuna_id">RNCO</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="SVDR" model="res.comuna">
         <field name="name">SAAVEDRA</field>
         <field name="region">R9</field>
         <field name="comuna_id">SVDR</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="TEMU" model="res.comuna">
         <field name="name">TEMUCO</field>
         <field name="region">R9</field>
         <field name="comuna_id">TEMU</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="TSCH" model="res.comuna">
         <field name="name">TEODORO SCHMIDT</field>
         <field name="region">R9</field>
         <field name="comuna_id">TSCH</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="TRAI" model="res.comuna">
         <field name="name">TRAIGUEN</field>
         <field name="region">R9</field>
         <field name="comuna_id">TRAI</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="VICT" model="res.comuna">
         <field name="name">VICTORIA</field>
         <field name="region">R9</field>
         <field name="comuna_id">VICT</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="VILC" model="res.comuna">
         <field name="name">VILCUN</field>
         <field name="region">R9</field>
         <field name="comuna_id">VILC</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="VILL" model="res.comuna">
         <field name="name">VILLARRICA</field>
         <field name="region">R9</field>
         <field name="comuna_id">VILL</field>
+        <!-- <field name="region_id">9</field> -->
     </record>
             
     <record id="AJAH" model="res.comuna">
         <field name="name">SAN BERNARDO</field>
         <field name="region">RM</field>
         <field name="comuna_id">AJAH</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="BATU" model="res.comuna">
         <field name="name">LAMPA</field>
         <field name="region">RM</field>
         <field name="comuna_id">BATU</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="BUIN" model="res.comuna">
         <field name="name">BUIN</field>
         <field name="region">RM</field>
         <field name="comuna_id">BUIN</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="CTAN" model="res.comuna">
         <field name="name">CALERA DE TANGO</field>
         <field name="region">RM</field>
         <field name="comuna_id">CTAN</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LOSC" model="res.comuna">
         <field name="name">CERRILLOS</field>
         <field name="region">RM</field>
         <field name="comuna_id">LOSC</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="CNAV" model="res.comuna">
         <field name="name">CERRO NAVIA</field>
         <field name="region">RM</field>
         <field name="comuna_id">CNAV</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="CHIC" model="res.comuna">
         <field name="name">COLINA</field>
         <field name="region">RM</field>
         <field name="comuna_id">CHIC</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="COLI" model="res.comuna">
         <field name="name">COLINA</field>
         <field name="region">RM</field>
         <field name="comuna_id">COLI</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="CCHA" model="res.comuna">
         <field name="name">CONCHALI</field>
         <field name="region">RM</field>
         <field name="comuna_id">CCHA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="CRCV" model="res.comuna">
         <field name="name">CURACAVI</field>
         <field name="region">RM</field>
         <field name="comuna_id">CRCV</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="ELBO" model="res.comuna">
         <field name="name">EL BOSQUE</field>
         <field name="region">RM</field>
         <field name="comuna_id">ELBO</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="ELMO" model="res.comuna">
         <field name="name">EL MONTE</field>
         <field name="region">RM</field>
         <field name="comuna_id">ELMO</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="ELPA" model="res.comuna">
         <field name="name">EL MONTE</field>
         <field name="region">RM</field>
         <field name="comuna_id">ELPA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="ENEA" model="res.comuna">
         <field name="name">ENEA EXPRESS</field>
         <field name="region">RM</field>
         <field name="comuna_id">ENEA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="ECEN" model="res.comuna">
         <field name="name">ESTACION CENTRAL</field>
         <field name="region">RM</field>
         <field name="comuna_id">ECEN</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="HUEC" model="res.comuna">
         <field name="name">HUECHURABA</field>
         <field name="region">RM</field>
         <field name="comuna_id">HUEC</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="INDE" model="res.comuna">
         <field name="name">INDEPENDENCIA</field>
         <field name="region">RM</field>
         <field name="comuna_id">INDE</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="IMAI" model="res.comuna">
         <field name="name">ISLA DE MAIPO</field>
         <field name="region">RM</field>
         <field name="comuna_id">IMAI</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LACI" model="res.comuna">
         <field name="name">LA CISTERNA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LACI</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LAFL" model="res.comuna">
         <field name="name">LA FLORIDA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LAFL</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LAGR" model="res.comuna">
         <field name="name">LA GRANJA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LAGR</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LAPI" model="res.comuna">
         <field name="name">LA PINTANA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LAPI</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LARE" model="res.comuna">
         <field name="name">LA REINA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LARE</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LAMP" model="res.comuna">
         <field name="name">LAMPA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LAMP</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LCON" model="res.comuna">
         <field name="name">LAS CONDES</field>
         <field name="region">RM</field>
         <field name="comuna_id">LCON</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LOBA" model="res.comuna">
         <field name="name">LO BARNECHEA</field>
         <field name="region">RM</field>
         <field name="comuna_id">LOBA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LOES" model="res.comuna">
         <field name="name">LO ESPEJO</field>
         <field name="region">RM</field>
         <field name="comuna_id">LOES</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LOPR" model="res.comuna">
         <field name="name">LO PRADO</field>
         <field name="region">RM</field>
         <field name="comuna_id">LOPR</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="LONQ" model="res.comuna">
         <field name="name">ISLA DE MAIPO</field>
         <field name="region">RM</field>
         <field name="comuna_id">LONQ</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="MACU" model="res.comuna">
         <field name="name">MACUL</field>
         <field name="region">RM</field>
         <field name="comuna_id">MACU</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="MIPU" model="res.comuna">
         <field name="name">MAIPU</field>
         <field name="region">RM</field>
         <field name="comuna_id">MIPU</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="MALL" model="res.comuna">
         <field name="name">PADRE HURTADO</field>
         <field name="region">RM</field>
         <field name="comuna_id">MALL</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="MELI" model="res.comuna">
         <field name="name">MELIPILLA</field>
         <field name="region">RM</field>
         <field name="comuna_id">MELI</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="NOSO" model="res.comuna">
         <field name="name">SAN BERNARDO</field>
         <field name="region">RM</field>
         <field name="comuna_id">NOSO</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="NUNO" model="res.comuna">
         <field name="name">NUNOA</field>
         <field name="region">RM</field>
         <field name="comuna_id">NUNO</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PHUR" model="res.comuna">
         <field name="name">PADRE HURTADO</field>
         <field name="region">RM</field>
         <field name="comuna_id">PHUR</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PAIN" model="res.comuna">
         <field name="name">PAINE</field>
         <field name="region">RM</field>
         <field name="comuna_id">PAIN</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PEDR" model="res.comuna">
         <field name="name">PEDRO AGUIRRE CERDA</field>
         <field name="region">RM</field>
         <field name="comuna_id">PEDR</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PENA" model="res.comuna">
         <field name="name">PENAFLOR</field>
         <field name="region">RM</field>
         <field name="comuna_id">PENA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PLOL" model="res.comuna">
         <field name="name">PENALOLEN</field>
         <field name="region">RM</field>
         <field name="comuna_id">PLOL</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PIRQ" model="res.comuna">
         <field name="name">PIRQUE</field>
         <field name="region">RM</field>
         <field name="comuna_id">PIRQ</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PROV" model="res.comuna">
         <field name="name">PROVIDENCIA</field>
         <field name="region">RM</field>
         <field name="comuna_id">PROV</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PUDA" model="res.comuna">
         <field name="name">PUDAHUEL</field>
         <field name="region">RM</field>
         <field name="comuna_id">PUDA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="PALT" model="res.comuna">
         <field name="name">PUENTE ALTO</field>
         <field name="region">RM</field>
         <field name="comuna_id">PALT</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="QILI" model="res.comuna">
         <field name="name">QUILICURA</field>
         <field name="region">RM</field>
         <field name="comuna_id">QILI</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="QNOR" model="res.comuna">
         <field name="name">QUINTA NORMAL</field>
         <field name="region">RM</field>
         <field name="comuna_id">QNOR</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="RECO" model="res.comuna">
         <field name="name">RECOLETA</field>
         <field name="region">RM</field>
         <field name="comuna_id">RECO</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="RENC" model="res.comuna">
         <field name="name">RENCA</field>
         <field name="region">RM</field>
         <field name="comuna_id">RENC</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="SBER" model="res.comuna">
         <field name="name">SAN BERNARDO</field>
         <field name="region">RM</field>
         <field name="comuna_id">SBER</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="SJOA" model="res.comuna">
         <field name="name">SAN JOAQUIN</field>
         <field name="region">RM</field>
         <field name="comuna_id">SJOA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="SMIG" model="res.comuna">
         <field name="name">SAN MIGUEL</field>
         <field name="region">RM</field>
         <field name="comuna_id">SMIG</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="SNPD" model="res.comuna">
         <field name="name">SAN PEDRO</field>
         <field name="region">RM</field>
         <field name="comuna_id">SNPD</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="SRAM" model="res.comuna">
         <field name="name">SAN RAMON</field>
         <field name="region">RM</field>
         <field name="comuna_id">SRAM</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="STGO" model="res.comuna">
         <field name="name">SANTIAGO CENTRO</field>
         <field name="region">RM</field>
         <field name="comuna_id">STGO</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="SCOB" model="res.comuna">
         <field name="name">SIN COBERTURA</field>
         <field name="region">RM</field>
         <field name="comuna_id">SCOB</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="TALA" model="res.comuna">
         <field name="name">TALAGANTE</field>
         <field name="region">RM</field>
         <field name="comuna_id">TALA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="TILT" model="res.comuna">
         <field name="name">TILTIL</field>
         <field name="region">RM</field>
         <field name="comuna_id">TILT</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="VITA" model="res.comuna">
         <field name="name">VITACURA</field>
         <field name="region">RM</field>
         <field name="comuna_id">VITA</field>
+        <!-- <field name="region_id">10</field> -->
     </record>
             
     <record id="ACHA" model="res.comuna">
         <field name="name">QUINCHAO</field>
         <field name="region">R10</field>
         <field name="comuna_id">ACHA</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="ALER" model="res.comuna">
         <field name="name">PUERTO MONTT</field>
         <field name="region">R10</field>
         <field name="comuna_id">ALER</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="ANCU" model="res.comuna">
         <field name="name">ANCUD</field>
         <field name="region">R10</field>
         <field name="comuna_id">ANCU</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="CALB" model="res.comuna">
         <field name="name">CALBUCO</field>
         <field name="region">R10</field>
         <field name="comuna_id">CALB</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="CAST" model="res.comuna">
         <field name="name">CASTRO</field>
         <field name="region">R10</field>
         <field name="comuna_id">CAST</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="CHON" model="res.comuna">
         <field name="name">CHONCHI</field>
         <field name="region">R10</field>
         <field name="comuna_id">CHON</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="CCHM" model="res.comuna">
         <field name="name">COCHAMO</field>
         <field name="region">R10</field>
         <field name="comuna_id">CCHM</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="CUVE" model="res.comuna">
         <field name="name">CURACO DE VELEZ</field>
         <field name="region">R10</field>
         <field name="comuna_id">CUVE</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="DALC" model="res.comuna">
         <field name="name">DALCAHUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">DALC</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="ELAG" model="res.comuna">
         <field name="name">PUYEHUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">ELAG</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="FRES" model="res.comuna">
         <field name="name">FRESIA</field>
         <field name="region">R10</field>
         <field name="comuna_id">FRES</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="FRUT" model="res.comuna">
         <field name="name">FRUTILLAR</field>
         <field name="region">R10</field>
         <field name="comuna_id">FRUT</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="HORP" model="res.comuna">
         <field name="name">HUALAIHUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">HORP</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="HULA" model="res.comuna">
         <field name="name">HUALAIHUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">HULA</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="LLAN" model="res.comuna">
         <field name="name">LLANQUIHUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">LLAN</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="LMUE" model="res.comuna">
         <field name="name">LOS MUERMOS</field>
         <field name="region">R10</field>
         <field name="comuna_id">LMUE</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="MAUL" model="res.comuna">
         <field name="name">MAULLIN</field>
         <field name="region">R10</field>
         <field name="comuna_id">MAUL</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="OSOR" model="res.comuna">
         <field name="name">OSORNO</field>
         <field name="region">R10</field>
         <field name="comuna_id">OSOR</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="PARG" model="res.comuna">
         <field name="name">MAULLIN</field>
         <field name="region">R10</field>
         <field name="comuna_id">PARG</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="PMON" model="res.comuna">
         <field name="name">PUERTO MONTT</field>
         <field name="region">R10</field>
         <field name="comuna_id">PMON</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="POCT" model="res.comuna">
         <field name="name">PUERTO OCTAY</field>
         <field name="region">R10</field>
         <field name="comuna_id">POCT</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="PVAR" model="res.comuna">
         <field name="name">PUERTO VARAS</field>
         <field name="region">R10</field>
         <field name="comuna_id">PVAR</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="PURR" model="res.comuna">
         <field name="name">PURRANQUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">PURR</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="PUYG" model="res.comuna">
         <field name="name">PUYEHUE</field>
         <field name="region">R10</field>
         <field name="comuna_id">PUYG</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="QUEL" model="res.comuna">
         <field name="name">QUELLON</field>
         <field name="region">R10</field>
         <field name="comuna_id">QUEL</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="QUEM" model="res.comuna">
         <field name="name">QUEMCHI</field>
         <field name="region">R10</field>
         <field name="comuna_id">QUEM</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="RNEG" model="res.comuna">
         <field name="name">RIO NEGRO</field>
         <field name="region">R10</field>
         <field name="comuna_id">RNEG</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="SPAB" model="res.comuna">
         <field name="name">SAN PABLO</field>
         <field name="region">R10</field>
         <field name="comuna_id">SPAB</field>
+        <!-- <field name="region_id">11</field> -->
     </record>
             
     <record id="BALM" model="res.comuna">
         <field name="name">COYHAIQUE</field>
         <field name="region">R11</field>
         <field name="comuna_id">BALM</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="CHCH" model="res.comuna">
         <field name="name">CHILE CHICO</field>
         <field name="region">R11</field>
         <field name="comuna_id">CHCH</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="COCH" model="res.comuna">
         <field name="name">COCHRANE</field>
         <field name="region">R11</field>
         <field name="comuna_id">COCH</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="COYH" model="res.comuna">
         <field name="name">COYHAIQUE</field>
         <field name="region">R11</field>
         <field name="comuna_id">COYH</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="LAJU" model="res.comuna">
         <field name="name">CISNES</field>
         <field name="region">R11</field>
         <field name="comuna_id">LAJU</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="PAYS" model="res.comuna">
         <field name="name">AISEN</field>
         <field name="region">R11</field>
         <field name="comuna_id">PAYS</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="PCHA" model="res.comuna">
         <field name="name">AISEN</field>
         <field name="region">R11</field>
         <field name="comuna_id">PCHA</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="PCIS" model="res.comuna">
         <field name="name">CISNES</field>
         <field name="region">R11</field>
         <field name="comuna_id">PCIS</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="RIBA" model="res.comuna">
         <field name="name">RIO IBANEZ</field>
         <field name="region">R11</field>
         <field name="comuna_id">RIBA</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="VMAN" model="res.comuna">
         <field name="name">COYHAIQUE</field>
         <field name="region">R11</field>
         <field name="comuna_id">VMAN</field>
+        <!-- <field name="region_id">12</field> -->
     </record>
             
     <record id="PNAT" model="res.comuna">
         <field name="name">NATALES</field>
         <field name="region">R12</field>
         <field name="comuna_id">PNAT</field>
+        <!-- <field name="region_id">13</field> -->
     </record>
             
     <record id="PORV" model="res.comuna">
         <field name="name">PORVENIR</field>
         <field name="region">R12</field>
         <field name="comuna_id">PORV</field>
+        <!-- <field name="region_id">13</field> -->
     </record>
             
     <record id="PUNT" model="res.comuna">
         <field name="name">PUNTA ARENAS</field>
         <field name="region">R12</field>
         <field name="comuna_id">PUNT</field>
+        <!-- <field name="region_id">13</field> -->
     </record>
             
     <record id="FUTR" model="res.comuna">
         <field name="name">FUTRONO</field>
         <field name="region">R14</field>
         <field name="comuna_id">FUTR</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="LAUN" model="res.comuna">
         <field name="name">LA UNION</field>
         <field name="region">R14</field>
         <field name="comuna_id">LAUN</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="LRAN" model="res.comuna">
         <field name="name">LAGO RANCO</field>
         <field name="region">R14</field>
         <field name="comuna_id">LRAN</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="LANC" model="res.comuna">
         <field name="name">LANCO</field>
         <field name="region">R14</field>
         <field name="comuna_id">LANC</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="LLAG" model="res.comuna">
         <field name="name">LOS LAGOS</field>
         <field name="region">R14</field>
         <field name="comuna_id">LLAG</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="MAFI" model="res.comuna">
         <field name="name">MAFIL</field>
         <field name="region">R14</field>
         <field name="comuna_id">MAFI</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="MRQN" model="res.comuna">
         <field name="name">MARIQUINA</field>
         <field name="region">R14</field>
         <field name="comuna_id">MRQN</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="PAIL" model="res.comuna">
         <field name="name">PAILLACO</field>
         <field name="region">R14</field>
         <field name="comuna_id">PAIL</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="PANG" model="res.comuna">
         <field name="name">PANGUIPULLI</field>
         <field name="region">R14</field>
         <field name="comuna_id">PANG</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="RIOB" model="res.comuna">
         <field name="name">RIO BUENO</field>
         <field name="region">R14</field>
         <field name="comuna_id">RIOB</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="SJMA" model="res.comuna">
         <field name="name">MARIQUINA</field>
         <field name="region">R14</field>
         <field name="comuna_id">SJMA</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="VALD" model="res.comuna">
         <field name="name">VALDIVIA</field>
         <field name="region">R14</field>
         <field name="comuna_id">VALD</field>
+        <!-- <field name="region_id">14</field> -->
     </record>
             
     <record id="ARIC" model="res.comuna">
         <field name="name">ARICA</field>
         <field name="region">R15</field>
         <field name="comuna_id">ARIC</field>
+        <!-- <field name="region_id">15</field> -->
     </record>
             
     <record id="BULN" model="res.comuna">
         <field name="name">BULNES</field>
         <field name="region">R16</field>
         <field name="comuna_id">BULN</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="CHIL" model="res.comuna">
         <field name="name">CHILLAN</field>
         <field name="region">R16</field>
         <field name="comuna_id">CHIL</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="CHVJ" model="res.comuna">
         <field name="name">CHILLAN VIEJO</field>
         <field name="region">R16</field>
         <field name="comuna_id">CHVJ</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="CHOL" model="res.comuna">
         <field name="name">YUNGAY</field>
         <field name="region">R16</field>
         <field name="comuna_id">CHOL</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="COEL" model="res.comuna">
         <field name="name">COELEMU</field>
         <field name="region">R16</field>
         <field name="comuna_id">COEL</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="COIC" model="res.comuna">
         <field name="name">COIHUECO</field>
         <field name="region">R16</field>
         <field name="comuna_id">COIC</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="ECAR" model="res.comuna">
         <field name="name">EL CARMEN</field>
         <field name="region">R16</field>
         <field name="comuna_id">ECAR</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="NINH" model="res.comuna">
         <field name="name">NINHUE</field>
         <field name="region">R16</field>
         <field name="comuna_id">NINH</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="NIQU" model="res.comuna">
         <field name="name">NIQUEN</field>
         <field name="region">R16</field>
         <field name="comuna_id">NIQU</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="NALD" model="res.comuna">
         <field name="name">CHILLAN</field>
         <field name="region">R16</field>
         <field name="comuna_id">NALD</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="PEMU" model="res.comuna">
         <field name="name">PEMUCO</field>
         <field name="region">R16</field>
         <field name="comuna_id">PEMU</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="PINT" model="res.comuna">
         <field name="name">PINTO</field>
         <field name="region">R16</field>
         <field name="comuna_id">PINT</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="PSEC" model="res.comuna">
         <field name="name">SAN IGNACIO</field>
         <field name="region">R16</field>
         <field name="comuna_id">PSEC</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="QULL" model="res.comuna">
         <field name="name">QUILLON</field>
         <field name="region">R16</field>
         <field name="comuna_id">QULL</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="QUIR" model="res.comuna">
         <field name="name">QUIRIHUE</field>
         <field name="region">R16</field>
         <field name="comuna_id">QUIR</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="QUIQ" model="res.comuna">
         <field name="name">SAN IGNACIO</field>
         <field name="region">R16</field>
         <field name="comuna_id">QUIQ</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="SCAR" model="res.comuna">
         <field name="name">SAN CARLOS</field>
         <field name="region">R16</field>
         <field name="comuna_id">SCAR</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="SIGN" model="res.comuna">
         <field name="name">SAN IGNACIO</field>
         <field name="region">R16</field>
         <field name="comuna_id">SIGN</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="SNIC" model="res.comuna">
         <field name="name">SAN NICOLAS</field>
         <field name="region">R16</field>
         <field name="comuna_id">SNIC</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
             
     <record id="YUNG" model="res.comuna">
         <field name="name">YUNGAY</field>
         <field name="region">R16</field>
         <field name="comuna_id">YUNG</field>
+        <!-- <field name="region_id">16</field> -->
     </record>
                     
 </odoo>

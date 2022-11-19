@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="region_1" model="res.region">
+        <field name="name">TARAPACA</field>
+        <field name="region_id">R1</field>
+    </record>
+    <record id="region_2" model="res.region">
+        <field name="name">ANTOFAGASTA</field>
+        <field name="region_id">R2</field>
+    </record>
+    <record id="region_3" model="res.region">
+        <field name="name">ATACAMA</field>
+        <field name="region_id">R3</field>
+    </record>
+    <record id="region_4" model="res.region">
+        <field name="name">COQUIMBO</field>
+        <field name="region_id">R4</field>
+    </record>
+    <record id="region_5" model="res.region">
+        <field name="name">VALPARAISO</field>
+        <field name="region_id">R5</field>
+    </record>
+    <record id="region_6" model="res.region">
+        <field name="name">LIBERTADOR GRAL BERNARDO O HIGGINS</field>
+        <field name="region_id">R6</field>
+    </record>
+    <record id="region_7" model="res.region">
+        <field name="name">MAULE</field>
+        <field name="region_id">R7</field>
+    </record>
+    <record id="region_8" model="res.region">
+        <field name="name">BIOBIO</field>
+        <field name="region_id">R8</field>
+    </record>
+    <record id="region_9" model="res.region">
+        <field name="name">ARAUCANIA</field>
+        <field name="region_id">R9</field>
+    </record>
+    <record id="region_10" model="res.region">
+        <field name="name">METROPOLITANA DE SANTIAGO</field>
+        <field name="region_id">RM</field>
+    </record>
+    <record id="region_11" model="res.region">
+        <field name="name">LOS LAGOS</field>
+        <field name="region_id">R10</field>
+    </record>
+    <record id="region_12" model="res.region">
+        <field name="name">AISEN DEL GRAL C IBANEZ DEL CAMPO</field>
+        <field name="region_id">R11</field>
+    </record>
+    <record id="region_13" model="res.region">
+        <field name="name">MAGALLANES Y LA ANTARTICA CHILENA</field>
+        <field name="region_id">R12</field>
+    </record>
+    <record id="region_14" model="res.region">
+        <field name="name">LOS RIOS</field>
+        <field name="region_id">R14</field>
+    </record>
+    <record id="region_15" model="res.region">
+        <field name="name">ARICA Y PARINACOTA</field>
+        <field name="region_id">R15</field>
+    </record>
+    <record id="region_16" model="res.region">
+        <field name="name">NUBLE</field>
+        <field name="region_id">R16</field>
+    </record>
+
+</odoo>

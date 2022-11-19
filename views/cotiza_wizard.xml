@@ -7,27 +7,27 @@
 		<field name="arch" type="xml">
             <form string="Cotizacion ChileExpress">
                 <sheet>
-                    <group>
+                    <group class="pl-5">
                         <group>
-                            <field name="origin_comuna" />
-                            <field name="destination_comuna" />
-                            <field name="origin_region" />
-                            <field name="destination_region" />
+                            <field name="origin_comuna_id"/>
+                            <field name="destination_comuna_id" />
                         </group>
                         <group>
-                            <field name="length" />
-                            <field name="width" />
+                            <field name="weight"/>
                             <field name="height" />
-                            <field name="weight" />
+                            <field name="width" />
+                            <field name="length" />
                             <field name="delivery_price" />
                         </group>
                     </group>
                 </sheet>
+                <footer>
+                    <button id="button_cotizar" name="get_cotizacion" string="Cotizar" 
+                    type="object" class="btn-primary"/>
+                    <button id="button_cerrar" name="close_wizard" string="Cerrar" 
+                    type="object" class="btn-danger"/>
+                </footer>
             </form>
-            <footer>
-                <button id="button_cotizar" name="get_cotizacion" string="Cotizar" 
-                type="object" class="btn-primary"/>
-            </footer>
 		</field>
 	</record>
 

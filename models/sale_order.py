@@ -12,6 +12,9 @@ class SaleOrder(models.Model):
             'type': 'ir.actions.act_window',
             'res_model': 'cotiza.wizard',
             'view_mode': 'form',
-            'target': 'new'
+            'target': 'new',
+            'context': {'peso': self.suma, 'res_id': self.id} 
         }
+
+    #delivery = fields.Char('Precio de Delivery')
 

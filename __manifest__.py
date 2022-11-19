@@ -12,15 +12,18 @@
     ],
     "depends": [
         "sale_management",
+        "rifcif_library_albers"
     ],
     "excludes": [],
     "data": [
         'data/comunas_data.xml',
+        'data/regions_data.xml',
         'security/ir.model.access.xml',
         'views/settings_inherit.xml',
         'views/sale_order.xml',
         'views/cotiza_wizard.xml',
-        'views/res_comuna.xml',  
+        'views/res_comuna.xml',
+        'views/res_region.xml',  
     ],
     "qweb": [],
     "images": [],

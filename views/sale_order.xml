@@ -10,6 +10,9 @@
                 <button id="button_cotizar_chileexpress" name="get_wizard" string="Cotizar ChileExpress" 
                 type="object" class="btn-success"/>
             </xpath>
+            <!-- <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="delivery" />
+            </xpath> -->
         </field>
     </record>
 

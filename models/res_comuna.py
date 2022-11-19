@@ -10,3 +10,4 @@ class ResComuna(models.Model):
     name = fields.Char('Nombre')
     region = fields.Char('Region')
     comuna_id = fields.Char('ID de la Comuna')
+    region_id = fields.Many2one('res.region','ID de la Region')
