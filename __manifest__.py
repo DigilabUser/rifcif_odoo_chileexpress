@@ -18,12 +18,16 @@
     "data": [
         'data/comunas_data.xml',
         'data/regions_data.xml',
+        'data/comunas_cchile_data.xml',
         'security/ir.model.access.xml',
         'views/settings_inherit.xml',
         'views/sale_order.xml',
         'views/cotiza_wizard.xml',
+        'views/cchile_wizard.xml',
         'views/res_comuna.xml',
-        'views/res_region.xml',  
+        'views/res_region.xml',
+        'views/res_comuna_cchile.xml',
+        'views/blue_wizard.xml'
     ],
     "qweb": [],
     "images": [],

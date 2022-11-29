@@ -15,6 +15,24 @@ class SaleOrder(models.Model):
             'target': 'new',
             'context': {'peso': self.suma, 'res_id': self.id} 
         }
+    
+    def get_cchile(self):
+        return{
+            'name': ('Cotización CorreosChile'),
+            'type': 'ir.actions.act_window',
+            'res_model': 'cchile.wizard',
+            'view_mode': 'form',
+            'target': 'new',
+            'context': {'x_peso': self.suma, 'res_id': self.id} 
+        }
 
-    #delivery = fields.Char('Precio de Delivery')
+    def get_blue(self):
+        return{
+            'name': ('Cotización BlueExpress'),
+            'type': 'ir.actions.act_window',
+            'res_model': 'blue.wizard',
+            'view_mode': 'form',
+            'target': 'new',
+            'context': {'res_id': self.id} 
+        }
 

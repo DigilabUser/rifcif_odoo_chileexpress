@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="ABO" model="res.comuna.cchile">
+        <field name="name">ALGARROBO</field>
+    </record>
+
+    <record id="VAH" model="res.comuna.cchile">
+        <field name="name">ALHUE</field>
+    </record>
+
+    <record id="LAS" model="res.comuna.cchile">
+        <field name="name">ALTO BIOBIO</field>
+    </record>
+
+    <record id="ADC" model="res.comuna.cchile">
+        <field name="name">ALTO DEL CARMEN</field>
+    </record>
+
+    <record id="AHO" model="res.comuna.cchile">
+        <field name="name">ALTO HOSPICIO</field>
+    </record>
+
+    <record id="ACD" model="res.comuna.cchile">
+        <field name="name">ANCUD</field>
+    </record>
+
+    <record id="JAB" model="res.comuna.cchile">
+        <field name="name">ANDACOLLO</field>
+    </record>
+
+    <record id="ZOL" model="res.comuna.cchile">
+        <field name="name">ANGOL</field>
+    </record>
+
+    <record id="LTH" model="res.comuna.cchile">
+        <field name="name">ANTARTICA</field>
+    </record>
+
+    <record id="ANF" model="res.comuna.cchile">
+        <field name="name">ANTOFAGASTA</field>
+    </record>
+
+    <record id="AUO" model="res.comuna.cchile">
+        <field name="name">ANTUCO</field>
+    </record>
+
+    <record id="ARA" model="res.comuna.cchile">
+        <field name="name">ARAUCO</field>
+    </record>
+
+    <record id="ARI" model="res.comuna.cchile">
+        <field name="name">ARICA</field>
+    </record>
+
+    <record id="WPA" model="res.comuna.cchile">
+        <field name="name">AYSEN</field>
+    </record>
+
+    <record id="BUI" model="res.comuna.cchile">
+        <field name="name">BUIN</field>
+    </record>
+
+    <record id="BLN" model="res.comuna.cchile">
+        <field name="name">BULNES</field>
+    </record>
+
+    <record id="CDO" model="res.comuna.cchile">
+        <field name="name">CABILDO</field>
+    </record>
+
+    <record id="LTJ" model="res.comuna.cchile">
+        <field name="name">CABO DE HORNOS</field>
+    </record>
+
+    <record id="CRO" model="res.comuna.cchile">
+        <field name="name">CABRERO</field>
+    </record>
+
+    <record id="CJC" model="res.comuna.cchile">
+        <field name="name">CALAMA</field>
+    </record>
+
+    <record id="CBU" model="res.comuna.cchile">
+        <field name="name">CALBUCO</field>
+    </record>
+
+    <record id="CLR" model="res.comuna.cchile">
+        <field name="name">CALDERA</field>
+    </record>
+
+    <record id="LC7" model="res.comuna.cchile">
+        <field name="name">CALERA</field>
+    </record>
+
+    <record id="ZCT" model="res.comuna.cchile">
+        <field name="name">CALERA DE TANGO</field>
+    </record>
+
+    <record id="CLG" model="res.comuna.cchile">
+        <field name="name">CALLE LARGA</field>
+    </record>
+
+    <record id="CRS" model="res.comuna.cchile">
+        <field name="name">CAMARONES</field>
+    </record>
+
+    <record id="CMR" model="res.comuna.cchile">
+        <field name="name">CAMIÑA</field>
+    </record>
+
+    <record id="CLL" model="res.comuna.cchile">
+        <field name="name">CANELA</field>
+    </record>
+
+    <record id="FWN" model="res.comuna.cchile">
+        <field name="name">CAÑETE</field>
+    </record>
+
+    <record id="CRH" model="res.comuna.cchile">
+        <field name="name">CARAHUE</field>
+    </record>
+
+    <record id="CRT" model="res.comuna.cchile">
+        <field name="name">CARTAGENA</field>
+    </record>
+
+    <record id="ZCB" model="res.comuna.cchile">
+        <field name="name">CASABLANCA</field>
+    </record>
+
+    <record id="CTR" model="res.comuna.cchile">
+        <field name="name">CASTRO</field>
+    </record>
+
+    <record id="CAT" model="res.comuna.cchile">
+        <field name="name">CATEMU</field>
+    </record>
+
+    <record id="CQE" model="res.comuna.cchile">
+        <field name="name">CAUQUENES</field>
+    </record>
+
+    <record id="FCV" model="res.comuna.cchile">
+        <field name="name">CERRILLOS</field>
+    </record>
+
+    <record id="FCW" model="res.comuna.cchile">
+        <field name="name">CERRO NAVIA</field>
+    </record>
+
+    <record id="CIT" model="res.comuna.cchile">
+        <field name="name">CHAITEN</field>
+    </record>
+
+    <record id="CHA" model="res.comuna.cchile">
+        <field name="name">CHANCO</field>
+    </record>
+
+    <record id="ZHN" model="res.comuna.cchile">
+        <field name="name">CHAÑARAL</field>
+    </record>
+
+    <record id="ZHE" model="res.comuna.cchile">
+        <field name="name">CHEPICA</field>
+    </record>
+
+    <record id="CYE" model="res.comuna.cchile">
+        <field name="name">CHIGUAYANTE</field>
+    </record>
+
+    <record id="CLH" model="res.comuna.cchile">
+        <field name="name">CHILE CHICO</field>
+    </record>
+
+    <record id="YAI" model="res.comuna.cchile">
+        <field name="name">CHILLAN</field>
+    </record>
+
+    <record id="CVO" model="res.comuna.cchile">
+        <field name="name">CHILLAN VIEJO</field>
+    </record>
+
+    <record id="CHB" model="res.comuna.cchile">
+        <field name="name">CHIMBARONGO</field>
+    </record>
+
+    <record id="ZHL" model="res.comuna.cchile">
+        <field name="name">CHOLCHOL</field>
+    </record>
+
+    <record id="CHO" model="res.comuna.cchile">
+        <field name="name">CHONCHI</field>
+    </record>
+
+    <record id="GRL" model="res.comuna.cchile">
+        <field name="name">CISNES</field>
+    </record>
+
+    <record id="CBR" model="res.comuna.cchile">
+        <field name="name">COBQUECURA</field>
+    </record>
+
+    <record id="CHM" model="res.comuna.cchile">
+        <field name="name">COCHAMO</field>
+    </record>
+
+    <record id="GKL" model="res.comuna.cchile">
+        <field name="name">COCHRANE</field>
+    </record>
+
+    <record id="CGY" model="res.comuna.cchile">
+        <field name="name">CODEGUA</field>
+    </record>
+
+    <record id="CEU" model="res.comuna.cchile">
+        <field name="name">COELEMU</field>
+    </record>
+
+    <record id="CUH" model="res.comuna.cchile">
+        <field name="name">COIHUECO</field>
+    </record>
+
+    <record id="CNO" model="res.comuna.cchile">
+        <field name="name">COINCO</field>
+    </record>
+
+    <record id="CLB" model="res.comuna.cchile">
+        <field name="name">COLBUN</field>
+    </record>
+
+    <record id="CCH" model="res.comuna.cchile">
+        <field name="name">COLCHANE</field>
+    </record>
+
+    <record id="GEG" model="res.comuna.cchile">
+        <field name="name">COLINA</field>
+    </record>
+
+    <record id="CPI" model="res.comuna.cchile">
+        <field name="name">COLLIPULLI</field>
+    </record>
+
+    <record id="CTO" model="res.comuna.cchile">
+        <field name="name">COLTAUCO</field>
+    </record>
+
+    <record id="COB" model="res.comuna.cchile">
+        <field name="name">COMBARBALA</field>
+    </record>
+
+    <record id="CCP" model="res.comuna.cchile">
+        <field name="name">CONCEPCION</field>
+    </record>
+
+    <record id="FCX" model="res.comuna.cchile">
+        <field name="name">CONCHALI</field>
+    </record>
+
+    <record id="GKF" model="res.comuna.cchile">
+        <field name="name">CONCON</field>
+    </record>
+
+    <record id="CTT" model="res.comuna.cchile">
+        <field name="name">CONSTITUCION</field>
+    </record>
+
+    <record id="CTM" model="res.comuna.cchile">
+        <field name="name">CONTULMO</field>
+    </record>
+
+    <record id="CPO" model="res.comuna.cchile">
+        <field name="name">COPIAPO</field>
+    </record>
+
+    <record id="COQ" model="res.comuna.cchile">
+        <field name="name">COQUIMBO</field>
+    </record>
+
+    <record id="KQQ" model="res.comuna.cchile">
+        <field name="name">CORONEL</field>
+    </record>
+
+    <record id="CRC" model="res.comuna.cchile">
+        <field name="name">CORRAL</field>
+    </record>
+
+    <record id="GXQ" model="res.comuna.cchile">
+        <field name="name">COYHAIQUE</field>
+    </record>
+
+    <record id="CUC" model="res.comuna.cchile">
+        <field name="name">CUNCO</field>
+    </record>
+
+    <record id="CCC" model="res.comuna.cchile">
+        <field name="name">CURACAUTIN</field>
+    </record>
+
+    <record id="CVI" model="res.comuna.cchile">
+        <field name="name">CURACAVI</field>
+    </record>
+
+    <record id="CDV" model="res.comuna.cchile">
+        <field name="name">CURACO DE VELEZ</field>
+    </record>
+
+    <record id="CNE" model="res.comuna.cchile">
+        <field name="name">CURANILAHUE</field>
+    </record>
+
+    <record id="CRE" model="res.comuna.cchile">
+        <field name="name">CURARREHUE</field>
+    </record>
+
+    <record id="CEP" model="res.comuna.cchile">
+        <field name="name">CUREPTO</field>
+    </record>
+
+    <record id="ZCQ" model="res.comuna.cchile">
+        <field name="name">CURICO</field>
+    </record>
+
+    <record id="DLE" model="res.comuna.cchile">
+        <field name="name">DALCAHUE</field>
+    </record>
+
+    <record id="DAG" model="res.comuna.cchile">
+        <field name="name">DIEGO DE ALMAGRO</field>
+    </record>
+
+    <record id="RDD" model="res.comuna.cchile">
+        <field name="name">DOÑIHUE</field>
+    </record>
+
+    <record id="EBQ" model="res.comuna.cchile">
+        <field name="name">EL BOSQUE</field>
+    </record>
+
+    <record id="GJR" model="res.comuna.cchile">
+        <field name="name">EL CARMEN</field>
+    </record>
+
+    <record id="EMT" model="res.comuna.cchile">
+        <field name="name">EL MONTE</field>
+    </record>
+
+    <record id="EQO" model="res.comuna.cchile">
+        <field name="name">EL QUISCO</field>
+    </record>
+
+    <record id="ETB" model="res.comuna.cchile">
+        <field name="name">EL TABO</field>
+    </record>
+
+    <record id="EPD" model="res.comuna.cchile">
+        <field name="name">EMPEDRADO</field>
+    </record>
+
+    <record id="ECA" model="res.comuna.cchile">
+        <field name="name">ERCILLA</field>
+    </record>
+
+    <record id="FCY" model="res.comuna.cchile">
+        <field name="name">ESTACION CENTRAL</field>
+    </record>
+
+    <record id="FRD" model="res.comuna.cchile">
+        <field name="name">FLORIDA</field>
+    </record>
+
+    <record id="FIE" model="res.comuna.cchile">
+        <field name="name">FREIRE</field>
+    </record>
+
+    <record id="FRN" model="res.comuna.cchile">
+        <field name="name">FREIRINA</field>
+    </record>
+
+    <record id="FSA" model="res.comuna.cchile">
+        <field name="name">FRESIA</field>
+    </record>
+
+    <record id="FRT" model="res.comuna.cchile">
+        <field name="name">FRUTILLAR</field>
+    </record>
+
+    <record id="FTF" model="res.comuna.cchile">
+        <field name="name">FUTALEUFU</field>
+    </record>
+
+    <record id="FTO" model="res.comuna.cchile">
+        <field name="name">FUTRONO</field>
+    </record>
+
+    <record id="GAO" model="res.comuna.cchile">
+        <field name="name">GALVARINO</field>
+    </record>
+
+    <record id="GLG" model="res.comuna.cchile">
+        <field name="name">GENERAL LAGOS</field>
+    </record>
+
+    <record id="GEA" model="res.comuna.cchile">
+        <field name="name">GORBEA</field>
+    </record>
+
+    <record id="GRA" model="res.comuna.cchile">
+        <field name="name">GRANEROS</field>
+    </record>
+
+    <record id="GTS" model="res.comuna.cchile">
+        <field name="name">GUAITECAS</field>
+    </record>
+
+    <record id="HJA" model="res.comuna.cchile">
+        <field name="name">HIJUELAS</field>
+    </record>
+
+    <record id="HLA" model="res.comuna.cchile">
+        <field name="name">HUALAIHUE</field>
+    </record>
+
+    <record id="HLE" model="res.comuna.cchile">
+        <field name="name">HUALAÑE</field>
+    </record>
+
+    <record id="HSP" model="res.comuna.cchile">
+        <field name="name">HUALPEN</field>
+    </record>
+
+    <record id="KQL" model="res.comuna.cchile">
+        <field name="name">HUALQUI</field>
+    </record>
+
+    <record id="HRA" model="res.comuna.cchile">
+        <field name="name">HUARA</field>
+    </record>
+
+    <record id="HCO" model="res.comuna.cchile">
+        <field name="name">HUASCO</field>
+    </record>
+
+    <record id="FCZ" model="res.comuna.cchile">
+        <field name="name">HUECHURABA</field>
+    </record>
+
+    <record id="ILL" model="res.comuna.cchile">
+        <field name="name">ILLAPEL</field>
+    </record>
+
+    <record id="FDA" model="res.comuna.cchile">
+        <field name="name">INDEPENDENCIA</field>
+    </record>
+
+    <record id="IQQ" model="res.comuna.cchile">
+        <field name="name">IQUIQUE</field>
+    </record>
+
+    <record id="GEK" model="res.comuna.cchile">
+        <field name="name">ISLA DE MAIPO</field>
+    </record>
+
+    <record id="IPC" model="res.comuna.cchile">
+        <field name="name">ISLA DE PASCUA</field>
+    </record>
+
+    <record id="IJF" model="res.comuna.cchile">
+        <field name="name">JUAN FERNANDEZ</field>
+    </record>
+
+    <record id="FDB" model="res.comuna.cchile">
+        <field name="name">LA CISTERNA</field>
+    </record>
+
+    <record id="LCR" model="res.comuna.cchile">
+        <field name="name">LA CRUZ</field>
+    </record>
+
+    <record id="LEA" model="res.comuna.cchile">
+        <field name="name">LA ESTRELLA</field>
+    </record>
+
+    <record id="FDD" model="res.comuna.cchile">
+        <field name="name">LA FLORIDA</field>
+    </record>
+
+    <record id="FDE" model="res.comuna.cchile">
+        <field name="name">LA GRANJA</field>
+    </record>
+
+    <record id="LHI" model="res.comuna.cchile">
+        <field name="name">LA HIGUERA</field>
+    </record>
+
+    <record id="LLC" model="res.comuna.cchile">
+        <field name="name">LA LIGUA</field>
+    </record>
+
+    <record id="LPT" model="res.comuna.cchile">
+        <field name="name">LA PINTANA</field>
+    </record>
+
+    <record id="FDF" model="res.comuna.cchile">
+        <field name="name">LA REINA</field>
+    </record>
+
+    <record id="LSC" model="res.comuna.cchile">
+        <field name="name">LA SERENA</field>
+    </record>
+
+    <record id="ZLU" model="res.comuna.cchile">
+        <field name="name">LA UNION</field>
+    </record>
+
+    <record id="LRC" model="res.comuna.cchile">
+        <field name="name">LAGO RANCO</field>
+    </record>
+
+    <record id="LVE" model="res.comuna.cchile">
+        <field name="name">LAGO VERDE</field>
+    </record>
+
+    <record id="LGB" model="res.comuna.cchile">
+        <field name="name">LAGUNA BLANCA</field>
+    </record>
+
+    <record id="LLJ" model="res.comuna.cchile">
+        <field name="name">LAJA</field>
+    </record>
+
+    <record id="LSG" model="res.comuna.cchile">
+        <field name="name">LAMPA</field>
+    </record>
+
+    <record id="LNC" model="res.comuna.cchile">
+        <field name="name">LANCO</field>
+    </record>
+
+    <record id="LCB" model="res.comuna.cchile">
+        <field name="name">LAS CABRAS</field>
+    </record>
+
+    <record id="FDG" model="res.comuna.cchile">
+        <field name="name">LAS CONDES</field>
+    </record>
+
+    <record id="LTR" model="res.comuna.cchile">
+        <field name="name">LAUTARO</field>
+    </record>
+
+    <record id="ZLB" model="res.comuna.cchile">
+        <field name="name">LEBU</field>
+    </record>
+
+    <record id="LNN" model="res.comuna.cchile">
+        <field name="name">LICANTEN</field>
+    </record>
+
+    <record id="LIC" model="res.comuna.cchile">
+        <field name="name">LIMACHE</field>
+    </record>
+
+    <record id="ZLR" model="res.comuna.cchile">
+        <field name="name">LINARES</field>
+    </record>
+
+    <record id="LEC" model="res.comuna.cchile">
+        <field name="name">LITUECHE</field>
+    </record>
+
+    <record id="GRK" model="res.comuna.cchile">
+        <field name="name">LLAILLAY</field>
+    </record>
+
+    <record id="LLQ" model="res.comuna.cchile">
+        <field name="name">LLANQUIHUE</field>
+    </record>
+
+    <record id="FDH" model="res.comuna.cchile">
+        <field name="name">LO BARNECHEA</field>
+    </record>
+
+    <record id="LEJ" model="res.comuna.cchile">
+        <field name="name">LO ESPEJO</field>
+    </record>
+
+    <record id="FDI" model="res.comuna.cchile">
+        <field name="name">LO PRADO</field>
+    </record>
+
+    <record id="LLL" model="res.comuna.cchile">
+        <field name="name">LOLOL</field>
+    </record>
+
+    <record id="LOC" model="res.comuna.cchile">
+        <field name="name">LONCOCHE</field>
+    </record>
+
+    <record id="LGV" model="res.comuna.cchile">
+        <field name="name">LONGAVI</field>
+    </record>
+
+    <record id="LQY" model="res.comuna.cchile">
+        <field name="name">LONQUIMAY</field>
+    </record>
+
+    <record id="ZAO" model="res.comuna.cchile">
+        <field name="name">LOS ALAMOS</field>
+    </record>
+
+    <record id="LAC" model="res.comuna.cchile">
+        <field name="name">LOS ANDES</field>
+    </record>
+
+    <record id="LSQ" model="res.comuna.cchile">
+        <field name="name">LOS ANGELES</field>
+    </record>
+
+    <record id="LAG" model="res.comuna.cchile">
+        <field name="name">LOS LAGOS</field>
+    </record>
+
+    <record id="LMM" model="res.comuna.cchile">
+        <field name="name">LOS MUERMOS</field>
+    </record>
+
+    <record id="SUS" model="res.comuna.cchile">
+        <field name="name">LOS SAUCES</field>
+    </record>
+
+    <record id="LV7" model="res.comuna.cchile">
+        <field name="name">LOS VILOS</field>
+    </record>
+
+    <record id="LOT" model="res.comuna.cchile">
+        <field name="name">LOTA</field>
+    </record>
+
+    <record id="LMO" model="res.comuna.cchile">
+        <field name="name">LUMACO</field>
+    </record>
+
+    <record id="MCH" model="res.comuna.cchile">
+        <field name="name">MACHALI</field>
+    </record>
+
+    <record id="FDJ" model="res.comuna.cchile">
+        <field name="name">MACUL</field>
+    </record>
+
+    <record id="MFL" model="res.comuna.cchile">
+        <field name="name">MAFIL</field>
+    </record>
+
+    <record id="FDK" model="res.comuna.cchile">
+        <field name="name">MAIPU</field>
+    </record>
+
+    <record id="ZML" model="res.comuna.cchile">
+        <field name="name">MALLOA</field>
+    </record>
+
+    <record id="MCG" model="res.comuna.cchile">
+        <field name="name">MARCHIHUE</field>
+    </record>
+
+    <record id="MAE" model="res.comuna.cchile">
+        <field name="name">MARIA ELENA</field>
+    </record>
+
+    <record id="MAO" model="res.comuna.cchile">
+        <field name="name">MARIA PINTO</field>
+    </record>
+
+    <record id="LGM" model="res.comuna.cchile">
+        <field name="name">MARIQUINA</field>
+    </record>
+
+    <record id="ZMA" model="res.comuna.cchile">
+        <field name="name">MAULE</field>
+    </record>
+
+    <record id="MAU" model="res.comuna.cchile">
+        <field name="name">MAULLIN</field>
+    </record>
+
+    <record id="MJS" model="res.comuna.cchile">
+        <field name="name">MEJILLONES</field>
+    </record>
+
+    <record id="MPO" model="res.comuna.cchile">
+        <field name="name">MELIPEUCO</field>
+    </record>
+
+    <record id="MPA" model="res.comuna.cchile">
+        <field name="name">MELIPILLA</field>
+    </record>
+
+    <record id="ZMO" model="res.comuna.cchile">
+        <field name="name">MOLINA</field>
+    </record>
+
+    <record id="MPC" model="res.comuna.cchile">
+        <field name="name">MONTE PATRIA</field>
+    </record>
+
+    <record id="SFM" model="res.comuna.cchile">
+        <field name="name">MOSTAZAL</field>
+    </record>
+
+    <record id="MUL" model="res.comuna.cchile">
+        <field name="name">MULCHEN</field>
+    </record>
+
+    <record id="NAC" model="res.comuna.cchile">
+        <field name="name">NACIMIENTO</field>
+    </record>
+
+    <record id="ZGA" model="res.comuna.cchile">
+        <field name="name">NANCAGUA</field>
+    </record>
+
+    <record id="PNT" model="res.comuna.cchile">
+        <field name="name">NATALES</field>
+    </record>
+
+    <record id="NVD" model="res.comuna.cchile">
+        <field name="name">NAVIDAD</field>
+    </record>
+
+    <record id="NRE" model="res.comuna.cchile">
+        <field name="name">NEGRETE</field>
+    </record>
+
+    <record id="NNH" model="res.comuna.cchile">
+        <field name="name">NINHUE</field>
+    </record>
+
+    <record id="NOG" model="res.comuna.cchile">
+        <field name="name">NOGALES</field>
+    </record>
+
+    <record id="NIP" model="res.comuna.cchile">
+        <field name="name">NUEVA IMPERIAL</field>
+    </record>
+
+    <record id="NQN" model="res.comuna.cchile">
+        <field name="name">ÑIQUEN</field>
+    </record>
+
+    <record id="FDL" model="res.comuna.cchile">
+        <field name="name">ÑUÑOA</field>
+    </record>
+
+    <record id="VOS" model="res.comuna.cchile">
+        <field name="name">OHIGGINS</field>
+    </record>
+
+    <record id="OAL" model="res.comuna.cchile">
+        <field name="name">OLIVAR</field>
+    </record>
+
+    <record id="OGE" model="res.comuna.cchile">
+        <field name="name">OLLAGUE</field>
+    </record>
+
+    <record id="OLM" model="res.comuna.cchile">
+        <field name="name">OLMUE</field>
+    </record>
+
+    <record id="ZOS" model="res.comuna.cchile">
+        <field name="name">OSORNO</field>
+    </record>
+
+    <record id="OVL" model="res.comuna.cchile">
+        <field name="name">OVALLE</field>
+    </record>
+
+    <record id="PHT" model="res.comuna.cchile">
+        <field name="name">PADRE HURTADO</field>
+    </record>
+
+    <record id="PLC" model="res.comuna.cchile">
+        <field name="name">PADRE LAS CASAS</field>
+    </record>
+
+    <record id="PIO" model="res.comuna.cchile">
+        <field name="name">PAIGUANO</field>
+    </record>
+
+    <record id="PAI" model="res.comuna.cchile">
+        <field name="name">PAILLACO</field>
+    </record>
+
+    <record id="GEJ" model="res.comuna.cchile">
+        <field name="name">PAINE</field>
+    </record>
+
+    <record id="FLP" model="res.comuna.cchile">
+        <field name="name">PALENA</field>
+    </record>
+
+    <record id="PLA" model="res.comuna.cchile">
+        <field name="name">PALMILLA</field>
+    </record>
+
+    <record id="PGP" model="res.comuna.cchile">
+        <field name="name">PANGUIPULLI</field>
+    </record>
+
+    <record id="PQE" model="res.comuna.cchile">
+        <field name="name">PANQUEHUE</field>
+    </record>
+
+    <record id="PPO" model="res.comuna.cchile">
+        <field name="name">PAPUDO</field>
+    </record>
+
+    <record id="PDS" model="res.comuna.cchile">
+        <field name="name">PAREDONES</field>
+    </record>
+
+    <record id="PRR" model="res.comuna.cchile">
+        <field name="name">PARRAL</field>
+    </record>
+
+    <record id="PAC" model="res.comuna.cchile">
+        <field name="name">PEDRO AGUIRRE CERDA</field>
+    </record>
+
+    <record id="PLO" model="res.comuna.cchile">
+        <field name="name">PELARCO</field>
+    </record>
+
+    <record id="PLE" model="res.comuna.cchile">
+        <field name="name">PELLUHUE</field>
+    </record>
+
+    <record id="PMO" model="res.comuna.cchile">
+        <field name="name">PEMUCO</field>
+    </record>
+
+    <record id="PNH" model="res.comuna.cchile">
+        <field name="name">PENCAHUE</field>
+    </record>
+
+    <record id="PCO" model="res.comuna.cchile">
+        <field name="name">PENCO</field>
+    </record>
+
+    <record id="GSI" model="res.comuna.cchile">
+        <field name="name">PEÑAFLOR</field>
+    </record>
+
+    <record id="FDY" model="res.comuna.cchile">
+        <field name="name">PEÑALOLEN</field>
+    </record>
+
+    <record id="PSF" model="res.comuna.cchile">
+        <field name="name">PERALILLO</field>
+    </record>
+
+    <record id="PQO" model="res.comuna.cchile">
+        <field name="name">PERQUENCO</field>
+    </record>
+
+    <record id="PTK" model="res.comuna.cchile">
+        <field name="name">PETORCA</field>
+    </record>
+
+    <record id="PEO" model="res.comuna.cchile">
+        <field name="name">PEUMO</field>
+    </record>
+
+    <record id="OPC" model="res.comuna.cchile">
+        <field name="name">PICA</field>
+    </record>
+
+    <record id="PDG" model="res.comuna.cchile">
+        <field name="name">PICHIDEGUA</field>
+    </record>
+
+    <record id="PMU" model="res.comuna.cchile">
+        <field name="name">PICHILEMU</field>
+    </record>
+
+    <record id="PNO" model="res.comuna.cchile">
+        <field name="name">PINTO</field>
+    </record>
+
+    <record id="PIR" model="res.comuna.cchile">
+        <field name="name">PIRQUE</field>
+    </record>
+
+    <record id="PQN" model="res.comuna.cchile">
+        <field name="name">PITRUFQUEN</field>
+    </record>
+
+    <record id="PSO" model="res.comuna.cchile">
+        <field name="name">PLACILLA</field>
+    </record>
+
+    <record id="PZO" model="res.comuna.cchile">
+        <field name="name">PORTEZUELO</field>
+    </record>
+
+    <record id="ZPR" model="res.comuna.cchile">
+        <field name="name">PORVENIR</field>
+    </record>
+
+    <record id="PAM" model="res.comuna.cchile">
+        <field name="name">POZO ALMONTE</field>
+    </record>
+
+    <record id="PVA" model="res.comuna.cchile">
+        <field name="name">PRIMAVERA</field>
+    </record>
+
+    <record id="FDN" model="res.comuna.cchile">
+        <field name="name">PROVIDENCIA</field>
+    </record>
+
+    <record id="PCV" model="res.comuna.cchile">
+        <field name="name">PUCHUNCAVI</field>
+    </record>
+
+    <record id="ZPU" model="res.comuna.cchile">
+        <field name="name">PUCON</field>
+    </record>
+
+    <record id="FDO" model="res.comuna.cchile">
+        <field name="name">PUDAHUEL</field>
+    </record>
+
+    <record id="PTA" model="res.comuna.cchile">
+        <field name="name">PUENTE ALTO</field>
+    </record>
+
+    <record id="PMC" model="res.comuna.cchile">
+        <field name="name">PUERTO MONTT</field>
+    </record>
+
+    <record id="PCY" model="res.comuna.cchile">
+        <field name="name">PUERTO OCTAY</field>
+    </record>
+
+    <record id="ZPV" model="res.comuna.cchile">
+        <field name="name">PUERTO VARAS</field>
+    </record>
+
+    <record id="PNQ" model="res.comuna.cchile">
+        <field name="name">PUMANQUE</field>
+    </record>
+
+    <record id="PTQ" model="res.comuna.cchile">
+        <field name="name">PUNITAQUI</field>
+    </record>
+
+    <record id="PUQ" model="res.comuna.cchile">
+        <field name="name">PUNTA ARENAS</field>
+    </record>
+
+    <record id="PQU" model="res.comuna.cchile">
+        <field name="name">PUQUELDON</field>
+    </record>
+
+    <record id="PUR" model="res.comuna.cchile">
+        <field name="name">PUREN</field>
+    </record>
+
+    <record id="PRE" model="res.comuna.cchile">
+        <field name="name">PURRANQUE</field>
+    </record>
+
+    <record id="PUT" model="res.comuna.cchile">
+        <field name="name">PUTAENDO</field>
+    </record>
+
+    <record id="PTR" model="res.comuna.cchile">
+        <field name="name">PUTRE</field>
+    </record>
+
+    <record id="LOO" model="res.comuna.cchile">
+        <field name="name">PUYEHUE</field>
+    </record>
+
+    <record id="QIL" model="res.comuna.cchile">
+        <field name="name">QUEILEN</field>
+    </record>
+
+    <record id="QLO" model="res.comuna.cchile">
+        <field name="name">QUELLON</field>
+    </record>
+
+    <record id="QMC" model="res.comuna.cchile">
+        <field name="name">QUEMCHI</field>
+    </record>
+
+    <record id="QCO" model="res.comuna.cchile">
+        <field name="name">QUILACO</field>
+    </record>
+
+    <record id="QRA" model="res.comuna.cchile">
+        <field name="name">QUILICURA</field>
+    </record>
+
+    <record id="QEO" model="res.comuna.cchile">
+        <field name="name">QUILLECO</field>
+    </record>
+
+    <record id="QLL" model="res.comuna.cchile">
+        <field name="name">QUILLON</field>
+    </record>
+
+    <record id="QTA" model="res.comuna.cchile">
+        <field name="name">QUILLOTA</field>
+    </record>
+
+    <record id="QPE" model="res.comuna.cchile">
+        <field name="name">QUILPUE</field>
+    </record>
+
+    <record id="QHO" model="res.comuna.cchile">
+        <field name="name">QUINCHAO</field>
+    </record>
+
+    <record id="QCC" model="res.comuna.cchile">
+        <field name="name">QUINTA DE TILCOCO</field>
+    </record>
+
+    <record id="FDP" model="res.comuna.cchile">
+        <field name="name">QUINTA NORMAL</field>
+    </record>
+
+    <record id="QTO" model="res.comuna.cchile">
+        <field name="name">QUINTERO</field>
+    </record>
+
+    <record id="QRH" model="res.comuna.cchile">
+        <field name="name">QUIRIHUE</field>
+    </record>
+
+    <record id="QRC" model="res.comuna.cchile">
+        <field name="name">RANCAGUA</field>
+    </record>
+
+    <record id="RQL" model="res.comuna.cchile">
+        <field name="name">RANQUIL</field>
+    </record>
+
+    <record id="RAU" model="res.comuna.cchile">
+        <field name="name">RAUCO</field>
+    </record>
+
+    <record id="FDQ" model="res.comuna.cchile">
+        <field name="name">RECOLETA</field>
+    </record>
+
+    <record id="RNA" model="res.comuna.cchile">
+        <field name="name">RENAICO</field>
+    </record>
+
+    <record id="REA" model="res.comuna.cchile">
+        <field name="name">RENCA</field>
+    </record>
+
+    <record id="RGO" model="res.comuna.cchile">
+        <field name="name">RENGO</field>
+    </record>
+
+    <record id="REQ" model="res.comuna.cchile">
+        <field name="name">REQUINOA</field>
+    </record>
+
+    <record id="RTO" model="res.comuna.cchile">
+        <field name="name">RETIRO</field>
+    </record>
+
+    <record id="RDL" model="res.comuna.cchile">
+        <field name="name">RINCONADA</field>
+    </record>
+
+    <record id="RBN" model="res.comuna.cchile">
+        <field name="name">RIO BUENO</field>
+    </record>
+
+    <record id="RRO" model="res.comuna.cchile">
+        <field name="name">RIO CLARO</field>
+    </record>
+
+    <record id="RHO" model="res.comuna.cchile">
+        <field name="name">RIO HURTADO</field>
+    </record>
+
+    <record id="RIZ" model="res.comuna.cchile">
+        <field name="name">RIO IBAÑEZ</field>
+    </record>
+
+    <record id="RNC" model="res.comuna.cchile">
+        <field name="name">RIO NEGRO</field>
+    </record>
+
+    <record id="RVE" model="res.comuna.cchile">
+        <field name="name">RIO VERDE</field>
+    </record>
+
+    <record id="RML" model="res.comuna.cchile">
+        <field name="name">ROMERAL</field>
+    </record>
+
+    <record id="PSA" model="res.comuna.cchile">
+        <field name="name">SAAVEDRA</field>
+    </record>
+
+    <record id="SAF" model="res.comuna.cchile">
+        <field name="name">SAGRADA FAMILIA</field>
+    </record>
+
+    <record id="SCA" model="res.comuna.cchile">
+        <field name="name">SALAMANCA</field>
+    </record>
+
+    <record id="QTN" model="res.comuna.cchile">
+        <field name="name">SAN ANTONIO</field>
+    </record>
+
+    <record id="SBD" model="res.comuna.cchile">
+        <field name="name">SAN BERNARDO</field>
+    </record>
+
+    <record id="SCS" model="res.comuna.cchile">
+        <field name="name">SAN CARLOS</field>
+    </record>
+
+    <record id="SCQ" model="res.comuna.cchile">
+        <field name="name">SAN CLEMENTE</field>
+    </record>
+
+    <record id="ZEB" model="res.comuna.cchile">
+        <field name="name">SAN ESTEBAN</field>
+    </record>
+
+    <record id="SFA" model="res.comuna.cchile">
+        <field name="name">SAN FABIAN</field>
+    </record>
+
+    <record id="SFP" model="res.comuna.cchile">
+        <field name="name">SAN FELIPE</field>
+    </record>
+
+    <record id="SF7" model="res.comuna.cchile">
+        <field name="name">SAN FERNANDO</field>
+    </record>
+
+    <record id="IUT" model="res.comuna.cchile">
+        <field name="name">SAN GREGORIO</field>
+    </record>
+
+    <record id="GIY" model="res.comuna.cchile">
+        <field name="name">SAN IGNACIO</field>
+    </record>
+
+    <record id="SJA" model="res.comuna.cchile">
+        <field name="name">SAN JAVIER</field>
+    </record>
+
+    <record id="FDR" model="res.comuna.cchile">
+        <field name="name">SAN JOAQUIN</field>
+    </record>
+
+    <record id="SJS" model="res.comuna.cchile">
+        <field name="name">SAN JOSE DE MAIPO</field>
+    </record>
+
+    <record id="SJC" model="res.comuna.cchile">
+        <field name="name">SAN JUAN DE LA COSTA</field>
+    </record>
+
+    <record id="FDS" model="res.comuna.cchile">
+        <field name="name">SAN MIGUEL</field>
+    </record>
+
+    <record id="SNL" model="res.comuna.cchile">
+        <field name="name">SAN NICOLAS</field>
+    </record>
+
+    <record id="SPL" model="res.comuna.cchile">
+        <field name="name">SAN PABLO</field>
+    </record>
+
+    <record id="ZPM" model="res.comuna.cchile">
+        <field name="name">SAN PEDRO</field>
+    </record>
+
+    <record id="SPX" model="res.comuna.cchile">
+        <field name="name">SAN PEDRO DE ATACAMA</field>
+    </record>
+
+    <record id="SPZ" model="res.comuna.cchile">
+        <field name="name">SAN PEDRO DE LA PAZ</field>
+    </record>
+
+    <record id="GIP" model="res.comuna.cchile">
+        <field name="name">SAN RAFAEL</field>
+    </record>
+
+    <record id="FDU" model="res.comuna.cchile">
+        <field name="name">SAN RAMON</field>
+    </record>
+
+    <record id="SRO" model="res.comuna.cchile">
+        <field name="name">SAN ROSENDO</field>
+    </record>
+
+    <record id="SVT" model="res.comuna.cchile">
+        <field name="name">SAN VICENTE</field>
+    </record>
+
+    <record id="SBB" model="res.comuna.cchile">
+        <field name="name">SANTA BARBARA</field>
+    </record>
+
+    <record id="ZSC" model="res.comuna.cchile">
+        <field name="name">SANTA CRUZ</field>
+    </record>
+
+    <record id="SAJ" model="res.comuna.cchile">
+        <field name="name">SANTA JUANA</field>
+    </record>
+
+    <record id="GQX" model="res.comuna.cchile">
+        <field name="name">SANTA MARIA</field>
+    </record>
+
+    <record id="SCL" model="res.comuna.cchile">
+        <field name="name">SANTIAGO</field>
+    </record>
+
+    <record id="SDQ" model="res.comuna.cchile">
+        <field name="name">SANTO DOMINGO</field>
+    </record>
+
+    <record id="SGD" model="res.comuna.cchile">
+        <field name="name">SIERRA GORDA</field>
+    </record>
+
+    <record id="TFI" model="res.comuna.cchile">
+        <field name="name">SIN INFORMACION COMUNA</field>
+    </record>
+
+    <record id="TNT" model="res.comuna.cchile">
+        <field name="name">TALAGANTE</field>
+    </record>
+
+    <record id="TLX" model="res.comuna.cchile">
+        <field name="name">TALCA</field>
+    </record>
+
+    <record id="ZTO" model="res.comuna.cchile">
+        <field name="name">TALCAHUANO</field>
+    </record>
+
+    <record id="GTE" model="res.comuna.cchile">
+        <field name="name">TALTAL</field>
+    </record>
+
+    <record id="ZCO" model="res.comuna.cchile">
+        <field name="name">TEMUCO</field>
+    </record>
+
+    <record id="TEN" model="res.comuna.cchile">
+        <field name="name">TENO</field>
+    </record>
+
+    <record id="TSC" model="res.comuna.cchile">
+        <field name="name">TEODORO SCHMIDT</field>
+    </record>
+
+    <record id="TRM" model="res.comuna.cchile">
+        <field name="name">TIERRA AMARILLA</field>
+    </record>
+
+    <record id="EXI" model="res.comuna.cchile">
+        <field name="name">TILTIL</field>
+    </record>
+
+    <record id="TMK" model="res.comuna.cchile">
+        <field name="name">TIMAUKEL</field>
+    </record>
+
+    <record id="TRU" model="res.comuna.cchile">
+        <field name="name">TIRUA</field>
+    </record>
+
+    <record id="TOC" model="res.comuna.cchile">
+        <field name="name">TOCOPILLA</field>
+    </record>
+
+    <record id="NTN" model="res.comuna.cchile">
+        <field name="name">TOLTEN</field>
+    </record>
+
+    <record id="TMC" model="res.comuna.cchile">
+        <field name="name">TOME</field>
+    </record>
+
+    <record id="TDP" model="res.comuna.cchile">
+        <field name="name">TORRES DEL PAINE</field>
+    </record>
+
+    <record id="CTL" model="res.comuna.cchile">
+        <field name="name">TORTEL</field>
+    </record>
+
+    <record id="ZEN" model="res.comuna.cchile">
+        <field name="name">TRAIGUEN</field>
+    </record>
+
+    <record id="THC" model="res.comuna.cchile">
+        <field name="name">TREGUACO</field>
+    </record>
+
+    <record id="TAL" model="res.comuna.cchile">
+        <field name="name">TUCAPEL</field>
+    </record>
+
+    <record id="ZAL" model="res.comuna.cchile">
+        <field name="name">VALDIVIA</field>
+    </record>
+
+    <record id="VLR" model="res.comuna.cchile">
+        <field name="name">VALLENAR</field>
+    </record>
+
+    <record id="VAP" model="res.comuna.cchile">
+        <field name="name">VALPARAISO</field>
+    </record>
+
+    <record id="VCH" model="res.comuna.cchile">
+        <field name="name">VICHUQUEN</field>
+    </record>
+
+    <record id="VIC" model="res.comuna.cchile">
+        <field name="name">VICTORIA</field>
+    </record>
+
+    <record id="VCA" model="res.comuna.cchile">
+        <field name="name">VICUÑA</field>
+    </record>
+
+    <record id="VLN" model="res.comuna.cchile">
+        <field name="name">VILCUN</field>
+    </record>
+
+    <record id="VGE" model="res.comuna.cchile">
+        <field name="name">VILLA ALEGRE</field>
+    </record>
+
+    <record id="VIA" model="res.comuna.cchile">
+        <field name="name">VILLA ALEMANA</field>
+    </record>
+
+    <record id="VRR" model="res.comuna.cchile">
+        <field name="name">VILLARRICA</field>
+    </record>
+
+    <record id="KNA" model="res.comuna.cchile">
+        <field name="name">VIÑA DEL MAR</field>
+    </record>
+
+    <record id="FDW" model="res.comuna.cchile">
+        <field name="name">VITACURA</field>
+    </record>
+
+    <record id="YBB" model="res.comuna.cchile">
+        <field name="name">YERBAS BUENAS</field>
+    </record>
+
+    <record id="JFF" model="res.comuna.cchile">
+        <field name="name">YUMBEL</field>
+    </record>
+
+    <record id="YGY" model="res.comuna.cchile">
+        <field name="name">YUNGAY</field>
+    </record>
+
+    <record id="JJG" model="res.comuna.cchile">
+        <field name="name">ZAPALLAR</field>
+    </record>
+
+</odoo>

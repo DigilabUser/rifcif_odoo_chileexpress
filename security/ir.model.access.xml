@@ -28,6 +28,32 @@
         <field name="perm_unlink" eval="1"/>
         <field name="perm_read" eval="1"/>
     </record>
-    
+    <record id="model_access_cotiza_correoschile" model="ir.model.access">
+        <field name="name">model.access.cotiza.correoschile</field>
+        <field name="model_id" ref="rifcif_odoo_chileexpress.model_cchile_wizard"/>
+        <field name="group_id" ref="base.group_system"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="perm_read" eval="1"/>
+    </record>
+    <record id="model_access_cotiza_blueexpress" model="ir.model.access">
+        <field name="name">model.access.cotiza.blueexpress</field>
+        <field name="model_id" ref="rifcif_odoo_chileexpress.model_blue_wizard"/>
+        <field name="group_id" ref="base.group_system"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="perm_read" eval="1"/>
+    </record>
+    <record id="model_access_res_comuna_cchile" model="ir.model.access">
+        <field name="name">model.access.res.comuna.cchile</field>
+        <field name="model_id" ref="rifcif_odoo_chileexpress.model_res_comuna_cchile"/>
+        <field name="group_id" ref="base.group_system"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="perm_read" eval="1"/>
+    </record>
 
 </odoo>

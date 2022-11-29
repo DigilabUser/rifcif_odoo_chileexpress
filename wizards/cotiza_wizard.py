@@ -30,6 +30,7 @@ class CotizaWizard(models.TransientModel):
     
     def _get_default_id(self):
         res = self._context.get('res_id',"")
+        _logger.info('REEEEEEEEEEES2222222%s',res)
         return res
 
     weight = fields.Char('Peso', default=_get_default_peso)

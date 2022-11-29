@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="view_cchile_form" model="ir.ui.view">
+        <field name="name">view.cchile.form</field>
+        <field name="model">blue.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Cotización BlueExpress">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="comuna_orig_id" />
+                            <field name="comuna_dest_id" />
+                        </group>
+                        <group>
+                            <field name="precio" />
+                        </group>       
+                    </group>
+                </sheet>
+                <footer>
+                    <button id="button_cotizar_blue" name="cotizar_blue" string="Cotizar" 
+                        type="object" class="btn-primary"/>
+                    <button id="button_cerrar_blue" name="close_blue" string="Cerrar" 
+                        type="object" class="btn-danger"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_cotizacion_bluexpress" model="ir.actions.act_window">
+        <field name="name">Cotización BlueExpress</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">blue.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+</odoo>

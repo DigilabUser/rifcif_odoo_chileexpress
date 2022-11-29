@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_comuna_cchile_tree" model="ir.ui.view">
+		<field name="name">view.comuna.cchile.tree</field>
+		<field name="model">res.comuna.cchile</field>
+		<field name="arch" type="xml">
+			<tree>
+				<field name="name"/>
+			</tree>
+		</field>
+	</record>
+    <record id="view_comuna_cchile_form" model="ir.ui.view">
+		<field name="name">view.comuna.cchile.form</field>
+		<field name="model">res.comuna.cchile</field>
+		<field name="arch" type="xml">
+			<form>
+                <group>
+                    <field name="name"/>
+                </group>
+			</form>
+		</field>
+	</record>
+
+    <record id="action_comuna_cchile" model="ir.actions.act_window">
+		<field name="name">Comunas CorreosChile</field>
+		<field name="res_model">res.comuna.cchile</field>
+	</record>
+
+     <menuitem id="menu_comuna_cchile" 
+              name="Comunas CorreosChile" 
+              parent="contacts.menu_localisation" 
+              action="rifcif_odoo_chileexpress.action_comuna_cchile"/>
+
+</odoo>
