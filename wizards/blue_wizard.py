@@ -21,7 +21,7 @@ class BlueWizard(models.TransientModel):
         header = {
             'BX-TOKEN':'012189d840019c5295517203a8ddb567',
             'BX-USERCODE':'51274',
-            'BX-CLIENT-ACCOUNT':'USREDUALBER'
+            'BX-CLIENT_ACCOUNT':'USREDUALBER'
         }
         myobj = {
             "from": {
