@@ -12,6 +12,8 @@
                             <field name="comuna_dest_id" />
                         </group>
                         <group>
+                            <field name="x_peso" />
+                            <field name="x_volumen" />                        
                             <field name="precio" />
                         </group>       
                     </group>

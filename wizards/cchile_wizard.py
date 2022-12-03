@@ -94,9 +94,6 @@ class CchileWizard(models.TransientModel):
             'context': ctx,
         }
 
-        _logger.info('RESPONSEEEEEEEEEEEEEE%s',response)
-        _logger.info('ANSSSSSSSSSSSSSSSS%s',ans)
-
     def close(self):
         s2_order = self.env['sale.order'].search([('id','=',self._get_default_id())])
         s2_order.write({'correoschile_price':self.price})
