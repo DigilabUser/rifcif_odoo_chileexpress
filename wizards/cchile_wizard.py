@@ -41,7 +41,7 @@ class CchileWizard(models.TransientModel):
     x_volumen = fields.Float('Volumen')
     price = fields.Float('Precio', default=_get_default_price)
 
-    def cotizar(self):
+    def cotizar_cchile(self):
         url="http://b2b.correos.cl/ServicioTarificacionCEPEmpresasExterno/cch/ws/tarificacionCEP/externo/implementacion/ExternoTarificacion.asmx?WSDL"
         headers = {'content-type': 'text/xml'}
         body = """
@@ -94,7 +94,7 @@ class CchileWizard(models.TransientModel):
             'context': ctx,
         }
 
-    def close(self):
+    def close_cchile(self):
         s2_order = self.env['sale.order'].search([('id','=',self._get_default_id())])
         s2_order.write({'correoschile_price':self.price})
         return {

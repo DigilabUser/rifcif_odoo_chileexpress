@@ -19,9 +19,9 @@
                     </group>
                 </sheet>
                 <footer>
-                    <button id="button_cotizar_cchile" name="cotizar" string="Cotizar" 
+                    <button id="button_cotizar_cchile" name="cotizar_cchile" string="Cotizar" 
                         type="object" class="btn-primary"/>
-                    <button id="button_cerrar_cchile" name="close" string="Cerrar" 
+                    <button id="button_cerrar_cchile" name="close_cchile" string="Cerrar" 
                         type="object" class="btn-danger"/>
                 </footer>
             </form>

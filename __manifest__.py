@@ -19,6 +19,7 @@
         'data/comunas_data.xml',
         'data/regions_data.xml',
         'data/comunas_cchile_data.xml',
+        'data/comunas_blue_data.xml',
         'security/ir.model.access.xml',
         'views/settings_inherit.xml',
         'views/sale_order.xml',
@@ -27,7 +28,8 @@
         'views/res_comuna.xml',
         'views/res_region.xml',
         'views/res_comuna_cchile.xml',
-        'views/blue_wizard.xml'
+        'views/blue_wizard.xml',
+        'views/res_comuna_blue.xml',
     ],
     "qweb": [],
     "images": [],

@@ -33,6 +33,6 @@ class SaleOrder(models.Model):
             'res_model': 'blue.wizard',
             'view_mode': 'form',
             'target': 'new',
-            'context': {'res_id': self.id} 
+            'context': {'x_peso': self.suma,'res_id': self.id} 
         }
 
