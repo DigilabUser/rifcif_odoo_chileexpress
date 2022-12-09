@@ -18,11 +18,14 @@ class CotizaWizard(models.TransientModel):
     
     def _get_default_origen(self):
         comuna = self._context.get('origin_comuna',"")
-        return comuna
+        comuna_def = self.env["res.comuna"].search([("name","=", "RECOLETA")])
+        
+        return comuna if comuna else comuna_def
 
     def _get_default_destino(self):
         destino = self._context.get('destination_comuna',"")
-        return destino
+        destino_def = self.env["res.comuna"].search([("name","=", "RECOLETA")])
+        return destino if destino else destino_def
 
     def _get_default_peso(self):
         peso = self._context.get('peso',"")
@@ -33,19 +36,20 @@ class CotizaWizard(models.TransientModel):
         _logger.info('REEEEEEEEEEES2222222%s',res)
         return res
 
-    weight = fields.Char('Peso', default=_get_default_peso)
-    height = fields.Char('Altura')
-    width = fields.Char('Ancho')
-    length = fields.Char('Largo')
+    weight = fields.Char('Peso (gr)', default=_get_default_peso)
+    height = fields.Char('Altura (cm)', default=10)
+    width = fields.Char('Ancho (cm)', default=10)
+    length = fields.Char('Largo (cm)', default=10)
     origin_comuna_id = fields.Many2one('res.comuna','Comuna de Origen',default=_get_default_origen)
     destination_comuna_id = fields.Many2one('res.comuna','Comuna de Destino',default=_get_default_destino)
     delivery_price = fields.Float('Precio de Envío', default=_get_default_char)
     origin_region_id = fields.Many2one('res.region', string='Region de Origen')
     destination_region_id = fields.Many2one('res.region', string='Region de Destino')
 
-    def close_wizard(self):
+    def close_wizard(self):        
         s_order = self.env['sale.order'].search([('id','=',self._get_default_id())])
         s_order.write({'chileexpress_price':self.delivery_price})
+        
         return {
             'view_type': 'form',
             'view_mode': 'form',
@@ -67,10 +71,10 @@ class CotizaWizard(models.TransientModel):
             "originCountyCode": self.origin_comuna_id.comuna_id,
             "destinationCountyCode": self.destination_comuna_id.comuna_id,
             "package": {
-                "weight": self.weight,
-                "height": self.height,
-                "width": self.width,
-                "length": self.length
+                "weight": self.weight/1000,
+                "height": self.height/100,
+                "width": self.width/100,
+                "length": self.length/100
             },
             "productType": 3,
             "contentType": 1,

@@ -12,18 +12,6 @@ class BlueWizard(models.TransientModel):
 
     _name = "blue.wizard"
 
-    def _get_default_largo(self):
-        largo = self._context.get('largo',"")
-        return largo
-    
-    def _get_default_alto(self):
-        alt = self._context.get('alto',"")
-        return alt
-
-    def _get_default_ancho(self):
-        anch = self._context.get('ancho',"")
-        return anch
-
     def _get_default_price(self):
         var = self._context.get('price',"")
         _logger.info('VAAAAAAAAAR%s',var)
@@ -40,21 +28,26 @@ class BlueWizard(models.TransientModel):
 
     def _get_default_origen(self):
         origen = self._context.get('comuna_origen',"")
-        return origen
+        origen_def = self.env["res.comuna.blue"].search([("name","=", "RECOLETA")])
+
+        return origen if origen else origen_def
 
     def _get_default_destino(self):
         destino = self._context.get('comuna_destino',"")
-        return destino
+        destino_def = self.env["res.comuna.blue"].search([("name","=", "RECOLETA")])
+        return destino if destino else destino_def
 
 
     comuna_orig_id = fields.Many2one('res.comuna.blue', 'Comuna de Origen', default=_get_default_origen)
     comuna_dest_id = fields.Many2one('res.comuna.blue', 'Comuna de Destino', default=_get_default_destino)
     precio = fields.Float('Precio', default=_get_default_price)
-    x_peso = fields.Float('Peso', default=_get_default_x_peso)
-    largo = fields.Float('Largo', default=_get_default_largo)
-    ancho = fields.Float('Ancho', default=_get_default_ancho)
-    alto = fields.Float('Alto', default=_get_default_alto)
+    x_peso = fields.Float('Peso (gr)', default=_get_default_x_peso)
+    x_volumen = fields.Float('Volumen')
 
+    def calcula_peso_volumetrico(ancho, largo, alto, cantidad, self):
+        volumen = (largo*ancho*alto)/4000
+        peso_vol = volumen*cantidad
+        return peso_vol**(1/3)
 
     def cotizar_blue(self):
         url = 'https://bx-tracking.bluex.cl/bx-pricing/v1'
@@ -78,10 +71,10 @@ class BlueWizard(models.TransientModel):
                 "datosProducto": {
                     "producto": "P",
                     "familiaProducto": "PAQU",
-                    "largo": self.largo,
-                    "ancho": self.ancho,
-                    "alto": self.alto,
-                    "pesoFisico": self.x_peso,
+                    "largo": "10",
+                    "ancho": "5",
+                    "alto": "7.5",
+                    "pesoFisico": self.x_peso/1000,
                     "cantidadPiezas": 1,
                     "unidades": 1
                     }
@@ -95,11 +88,7 @@ class BlueWizard(models.TransientModel):
         ctx.update({    
             'price': precio_flete,
             'comuna_origen': self.comuna_orig_id.id,
-            'comuna_destino': self.comuna_dest_id.id,
-            'x_peso': self.x_peso,
-            'ancho': self.ancho,
-            'alto': self.alto,
-            'largo': self.alto
+            'comuna_destino': self.comuna_dest_id.id
         })
         return {
             'view_type': 'form',
@@ -108,12 +97,10 @@ class BlueWizard(models.TransientModel):
             'type': 'ir.actions.act_window',
             'target': 'new',
             'context': ctx,
-        }
-
-
+        }        
     def close_blue(self):
-        s3_order = self.env['sale.order'].search([('id','=',self._get_default_id())])
-        s3_order.write({'blueexpress_price':self.precio})
+        s2_order = self.env['sale.order'].search([('id','=',self._get_default_id())])
+        s2_order.write({'blueexpress_price':self.precio})
         return {
             'view_type': 'form',
             'view_mode': 'form',

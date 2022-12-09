@@ -13,7 +13,7 @@
                         </group>
                         <group>
                             <field name="x_peso" />
-                            <field name="x_volumen" />
+                            <!-- <field name="x_volumen" /> -->
                             <field name="price" />
                         </group>       
                     </group>

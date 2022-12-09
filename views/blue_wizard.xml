@@ -12,10 +12,7 @@
                             <field name="comuna_dest_id" />
                         </group>
                         <group>
-                            <field name="x_peso" />
-                            <field name="ancho" />
-                            <field name="alto" />
-                            <field name="largo" />                      
+                            <field name="x_peso" />                  
                             <field name="precio" />
                         </group>       
                     </group>

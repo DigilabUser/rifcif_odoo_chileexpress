@@ -28,17 +28,18 @@ class CchileWizard(models.TransientModel):
 
     def _get_default_origen(self):
         origen = self._context.get('comuna_origen',"")
-        return origen
+        origen_def = self.env["res.comuna.cchile"].search([("name","=", "RECOLETA")])
+        return origen if origen else origen_def
 
     def _get_default_destino(self):
         destino = self._context.get('comuna_destino',"")
-        return destino
-
+        destino_def = self.env["res.comuna.cchile"].search([("name","=", "RECOLETA")])
+        return destino if destino else destino_def
 
     comuna_origen_id = fields.Many2one('res.comuna.cchile', 'Comuna de Origen', default=_get_default_origen)
     comuna_destino_id = fields.Many2one('res.comuna.cchile', 'Comuna de Destino', default=_get_default_destino)
-    x_peso = fields.Float('Peso', default=_get_default_x_peso)
-    x_volumen = fields.Float('Volumen')
+    x_peso = fields.Float('Peso (gr)', default=_get_default_x_peso)
+    x_volumen = fields.Float('Volumen', default=0.01)
     price = fields.Float('Precio', default=_get_default_price)
 
     def cotizar_cchile(self):
@@ -70,7 +71,7 @@ class CchileWizard(models.TransientModel):
         </soapenv:Envelope>
 
         """
-        x = requests.post(url,data=body.format(self.comuna_origen_id.name,self.comuna_destino_id.name,self.x_peso),headers=headers)
+        x = requests.post(url,data=body.format(self.comuna_origen_id.name,self.comuna_destino_id.name,self.x_peso/1000),headers=headers)
         obj = xmltodict.parse(x.text)
         obj_json = json.dumps(obj)
         response = json.loads(obj_json)
